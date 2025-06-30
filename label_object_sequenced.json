@@ -1,0 +1,650 @@
+{
+    "KO": {
+        "description": "Konstruktion, Gebäude",
+        "sequence": 10
+    },
+    "KO.01": {
+        "description": "Bodenplatte, Fundament",
+        "sequence": 1
+    },
+    "KO.01.01": {
+        "description": "Unterbau Fundament, Bodenplatte",
+        "sequence": 1
+    },
+    "KO.01.01.01": {
+        "description": "Sauberkeitsschicht, Splitbett",
+        "sequence": 1
+    },
+    "KO.01.01.02": {
+        "description": "Negativbeton und Werkleitungen (Unterbetonplatte)",
+        "sequence": 2
+    },
+    "KO.01.01.03": {
+        "description": "Medienkanäle",
+        "sequence": 3
+    },
+    "KO.01.01.04": {
+        "description": "Betonieren Bewehrung",
+        "sequence": 4
+    },
+    "KO.01.02": {
+        "description": "Fundament",
+        "sequence": 5
+    },
+    "KO.01.02.01": {
+        "description": "Regelfundamente",
+        "sequence": 5
+    },
+    "KO.01.02.02": {
+        "description": "Streifenfundamente",
+        "sequence": 5
+    },
+    "KO.01.02.03": {
+        "description": "Zubehör für Standardfundamente",
+        "sequence": 6
+    },
+    "KO.01.02.04": {
+        "description": "Spezialfundamente",
+        "sequence": 5
+    },
+    "KO.01.02.05": {
+        "description": "Rammpfähle",
+        "sequence": 1
+    },
+    "KO.01.02.06": {
+        "description": "Bohrpfähle",
+        "sequence": 1
+    },
+    "KO.01.02.07": {
+        "description": "Fundamentplatte",
+        "sequence": 6
+    },
+    "KO.01.02.08": {
+        "description": "Einzelfundament",
+        "sequence": 5
+    },
+    "KO.01.02.09": {
+        "description": "Pfähle",
+        "sequence": 1
+    },
+    "KO.01.03": {
+        "description": "Bodenplatte",
+        "sequence": 7
+    },
+    "KO.01.04": {
+        "description": "Erdverbundene Treppe, Rampe",
+        "sequence": 8
+    },
+    "KO.01.04.01": {
+        "description": "Massivbau",
+        "sequence": 8
+    },
+    "KO.01.04.02": {
+        "description": "Zusammengebaut",
+        "sequence": 8
+    },
+    "KO.01.05": {
+        "description": "Erdverbundenes Podest",
+        "sequence": 8
+    },
+    "KO.01.05.01": {
+        "description": "Massivbau",
+        "sequence": 8
+    },
+    "KO.01.05.02": {
+        "description": "Zusammengebaut",
+        "sequence": 8
+    },
+    "KO.01.06": {
+        "description": "Erdverbundener Aufzugschacht",
+        "sequence": 9
+    },
+    "KO.01.06.01": {
+        "description": "Stahlbeton",
+        "sequence": 9
+    },
+    "KO.01.06.02": {
+        "description": "Mauerwerk",
+        "sequence": 9
+    },
+    "KO.01.06.03": {
+        "description": "Stahlkonstruktion",
+        "sequence": 9
+    },
+    "KO.02": {
+        "description": "Wandkonstruktion",
+        "sequence": 12
+    },
+    "KO.02.01": {
+        "description": "Aussenwandkonstruktion",
+        "sequence": 12
+    },
+    "KO.02.02": {
+        "description": "Innenwandkonstruktion",
+        "sequence": 15
+    },
+    "KO.02.02.05": {
+        "description": "Spezielle Innenwand",
+        "sequence": 16
+    },
+    "KO.02.02.05.01": {
+        "description": "Leichtbauwand aus Holz",
+        "sequence": 16
+    },
+    "KO.02.02.05.02": {
+        "description": "Glasbauwand",
+        "sequence": 16
+    },
+    "KO.02.02.05.03": {
+        "description": "Brandschutzwand",
+        "sequence": 16
+    },
+    "KO.03": {
+        "description": "Stützenkonstruktion",
+        "sequence": 10
+    },
+    "KO.03.01": {
+        "description": "Aussenstütze",
+        "sequence": 10
+    },
+    "KO.03.01.01": {
+        "description": "Stützen Rohbau",
+        "sequence": 10
+    },
+    "KO.03.01.02": {
+        "description": "Stützen Holzbau",
+        "sequence": 10
+    },
+    "KO.03.01.03": {
+        "description": "Stützen Stahlbau",
+        "sequence": 10
+    },
+    "KO.03.02": {
+        "description": "Innenstütze",
+        "sequence": 10
+    },
+    "KO.03.02.01": {
+        "description": "Stützen Rohbau",
+        "sequence": 10
+    },
+    "KO.03.02.02": {
+        "description": "Stützen Holzbau",
+        "sequence": 10
+    },
+    "KO.03.02.03": {
+        "description": "Stützen Metallbau",
+        "sequence": 10
+    },
+    "KO.04": {
+        "description": "Deckenkonstruktion, Dachkonstruktion",
+        "sequence": 11
+    },
+    "KO.04.01": {
+        "description": "Geschossdecke",
+        "sequence": 11
+    },
+    "KO.04.01.01": {
+        "description": "Massiv",
+        "sequence": 11
+    },
+    "KO.04.01.02": {
+        "description": "Träger",
+        "sequence": 11
+    },
+    "KO.04.02": {
+        "description": "Innen liegende Treppe, Rampe",
+        "sequence": 13
+    },
+    "KO.04.02.01": {
+        "description": "Massivbau",
+        "sequence": 13
+    },
+    "KO.04.02.02": {
+        "description": "Zusammengebaut",
+        "sequence": 13
+    },
+    "KO.04.03": {
+        "description": "Innen liegendes Podest",
+        "sequence": 13
+    },
+    "KO.04.03.01": {
+        "description": "Massivbau",
+        "sequence": 13
+    },
+    "KO.04.03.02": {
+        "description": "Zusammengebaut",
+        "sequence": 13
+    },
+    "KO.04.04": {
+        "description": "Dachkonstruktion",
+        "sequence": 20
+    },
+    "KO.04.04.01": {
+        "description": "Konstruktion Flachdach",
+        "sequence": 20
+    },
+    "KO.04.04.01.01": {
+        "description": "Massiv",
+        "sequence": 20
+    },
+    "KO.04.04.01.02": {
+        "description": "Träger",
+        "sequence": 20
+    },
+    "KO.04.04.02": {
+        "description": "Konstruktion geneigtes Dach",
+        "sequence": 20
+    },
+    "KO.04.44.02.03": {
+        "description": "Außen-Dachpaneele",
+        "sequence": 22
+    },
+    "KO.04.44.02.04": {
+        "description": "Außen-Dachpaneele aus Metall",
+        "sequence": 22
+    },
+    "KO.04.44.02.05": {
+        "description": "Außen-Dachpaneele aus Kunststoff",
+        "sequence": 22
+    },
+    "KO.04.44.02.06": {
+        "description": "Außen-Dachpaneele aus Holz",
+        "sequence": 22
+    },
+    "KO.04.44.02.07": {
+        "description": "Außen-Dachpaneele aus Verbundwerkstoff",
+        "sequence": 22
+    },
+    "KO.04.44.02.08": {
+        "description": "Beschichtete Außen-Dachpaneele",
+        "sequence": 22
+    },
+    "KO.04.44.02.09": {
+        "description": "Außen-Dachpaneele mit Gesteinsbeschichtung",
+        "sequence": 22
+    },
+    "KO.04.44.02.10": {
+        "description": "Porzellanemaillierte Außen-Dachpaneele",
+        "sequence": 22
+    },
+    "KO.04.44.02.11": {
+        "description": "Außen-Dachpaneele mit Fliesenbeschichtung",
+        "sequence": 22
+    },
+    "KO.04.06": {
+        "description": "Aussen liegende Treppe, Rampe",
+        "sequence": 14
+    },
+    "KO.04.06.01": {
+        "description": "Massivbau",
+        "sequence": 14
+    },
+    "KO.04.06.02": {
+        "description": "Zusammengebaut",
+        "sequence": 14
+    },
+    "KO.04.07": {
+        "description": "Aussen liegendes Podest",
+        "sequence": 14
+    },
+    "KO.04.07.01": {
+        "description": "Massivbau",
+        "sequence": 14
+    },
+    "KO.04.07.02": {
+        "description": "Zusammengebaut",
+        "sequence": 14
+    },
+    "KO.04.08": {
+        "description": "Aussen liegende Konstruktion, Vordach",
+        "sequence": 25
+    },
+    "KO.05": {
+        "description": "Ergänzende Leistung zu Konstruktion",
+        "sequence": 17
+    },
+    "KO.05.01": {
+        "description": "Durchbruch, Schlitz zu Konstruktion",
+        "sequence": 17
+    },
+    "KO.05.02": {
+        "description": "Maschinensockel, Einlage",
+        "sequence": 17
+    },
+    "KO.06": {
+        "description": "Fassadenkonstruktion",
+        "sequence": 18
+    },
+    "KO.06.01": {
+        "description": "Vorhangfassade / Pfosten-Riegel-System",
+        "sequence": 18
+    },
+    "KO.06.02": {
+        "description": "Fassadenbekleidung (Metall-/Holz-/Keramik-/Faserzementtafeln)",
+        "sequence": 19
+    },
+    "KO.06.03": {
+        "description": "WDVS-System (Putz- und Wärmedämmverbundsystem)",
+        "sequence": 19
+    },
+    "KO.06.04": {
+        "description": "Dämmung / Isolationsschichten",
+        "sequence": 18
+    },
+    "KO.06.05": {
+        "description": "Abdichtung (Fugenbänder, Dichtbahnen)",
+        "sequence": 18
+    },
+    "KO.06.06": {
+        "description": "Sonnenschutz (Raffstores, Lamellen, Jalousien)",
+        "sequence": 28
+    },
+    "KO.06.07": {
+        "description": "Fassadenlüftungsklappen",
+        "sequence": 27
+    },
+    "KO.06.08": {
+        "description": "Fensteranschlüsse und Leibungen",
+        "sequence": 26
+    },
+    "KO.06.09": {
+        "description": "Türanschlüsse und Schwellen",
+        "sequence": 26
+    },
+    "KO.06.10": {
+        "description": "Diverse Fassadenbauteile",
+        "sequence": 29
+    },
+    "KO.07": {
+        "description": "Diverse Konstruktionsbauteile",
+        "sequence": 30
+    },
+    "SN": {
+        "description": "Sanitär",
+        "sequence": 40
+    },
+    "SN.01": {
+        "description": "Wasserrohr (gerades Segment)",
+        "sequence": 40
+    },
+    "SN.02": {
+        "description": "Rohrarmaturen (Reduzierungen, Kupplungen)",
+        "sequence": 41
+    },
+    "SN.03": {
+        "description": "Rohrarmaturen: Bögen",
+        "sequence": 41
+    },
+    "SN.04": {
+        "description": "Rohrarmaturen: T-Stücke",
+        "sequence": 41
+    },
+    "SN.05": {
+        "description": "Ventile (Absperr-, Rückfluss-, Druckminderventile etc.)",
+        "sequence": 42
+    },
+    "SN.06": {
+        "description": "Boosterpumpe (Druckerhöhungspumpe)",
+        "sequence": 43
+    },
+    "SN.07": {
+        "description": "Wassertank (Speicher-/Ausdehnungsbehälter)",
+        "sequence": 43
+    },
+    "SN.08": {
+        "description": "Warmwassererzeuger (Kessel/Calorifier)",
+        "sequence": 43
+    },
+    "SN.09": {
+        "description": "Waschtisch (Waschbecken)",
+        "sequence": 48
+    },
+    "SN.10": {
+        "description": "Toilette (WC/Water Closet)",
+        "sequence": 48
+    },
+    "SN.11": {
+        "description": "Urinal",
+        "sequence": 48
+    },
+    "SN.12": {
+        "description": "Bodenablauf (Ablauföffnung)",
+        "sequence": 47
+    },
+    "EL": {
+        "description": "EL",
+        "sequence": 35
+    },
+    "EL.01": {
+        "description": "Leerrohr/Kabelschutzrohr",
+        "sequence": 35
+    },
+    "EL.02": {
+        "description": "Leerrohrzubehör (Bögen, T-Stücke)",
+        "sequence": 36
+    },
+    "EL.03": {
+        "description": "Elektrokabel / Draht",
+        "sequence": 44
+    },
+    "EL.04": {
+        "description": "Kabeltrasse",
+        "sequence": 37
+    },
+    "EL.05": {
+        "description": "Kabeltrassenzubehör: Bögen",
+        "sequence": 38
+    },
+    "EL.06": {
+        "description": "Kabeltrassenzubehör: T-Stücke",
+        "sequence": 38
+    },
+    "EL.07": {
+        "description": "Beleuchtungskörper (Leuchte)",
+        "sequence": 46
+    },
+    "EL.08": {
+        "description": "Schalter",
+        "sequence": 46
+    },
+    "EL.09": {
+        "description": "Steckdose (Rezeptacle/Outlet)",
+        "sequence": 46
+    },
+    "EL.10": {
+        "description": "Verteilerkasten (Schaltschranksystem)",
+        "sequence": 39
+    },
+    "SPR": {
+        "description": "Sprinkler (Brandschutz)",
+        "sequence": 32
+    },
+    "SPR.01": {
+        "description": "Sprinklerkopf",
+        "sequence": 45
+    },
+    "SPR.02": {
+        "description": "Sprinklerrohr",
+        "sequence": 32
+    },
+    "SPR.03": {
+        "description": "Sprinklerzubehör: Bögen",
+        "sequence": 33
+    },
+    "SPR.04": {
+        "description": "Sprinklerzubehör: T-Stücke",
+        "sequence": 33
+    },
+    "SPR.05": {
+        "description": "Alarm-/Steuerarmatur",
+        "sequence": 42
+    },
+    "SPR.06": {
+        "description": "Brandschutzpumpe",
+        "sequence": 34
+    },
+    "SPR.07": {
+        "description": "Jockey-Pumpe",
+        "sequence": 34
+    },
+    "SPR.08": {
+        "description": "Feuerwehranschluss",
+        "sequence": 42
+    },
+    "SPR.09": {
+        "description": "Rückflussverhinderer",
+        "sequence": 34
+    },
+    "HZ": {
+        "description": "Heizung",
+        "sequence": 31
+    },
+    "HZ.01": {
+        "description": "Kessel (Heizunggerät)",
+        "sequence": 31
+    },
+    "HZ.02": {
+        "description": "Wärmetauscher",
+        "sequence": 31
+    },
+    "HZ.03": {
+        "description": "Umwälzpumpe (Heizungspumpe)",
+        "sequence": 31
+    },
+    "HZ.04": {
+        "description": "Heizungsrohre (Vorlauf & Rücklauf)",
+        "sequence": 31
+    },
+    "HZ.05": {
+        "description": "Rohrarmaturen (Heizungsinstallation)",
+        "sequence": 31
+    },
+    "HZ.06": {
+        "description": "Heizfittings: Bögen",
+        "sequence": 31
+    },
+    "HZ.07": {
+        "description": "Heizfittings: T-Stück",
+        "sequence": 31
+    },
+    "HZ.08": {
+        "description": "Ventile (Heizsventile)",
+        "sequence": 31
+    },
+    "HZ.09": {
+        "description": "Ausdehnungsgefäß (Heizung)",
+        "sequence": 31
+    },
+    "HZ.10": {
+        "description": "Heizkörper / Konvektoren",
+        "sequence": 49
+    },
+    "HZ.11": {
+        "description": "FanCoil-Gerät",
+        "sequence": 49
+    },
+    "KT": {
+        "description": "Kälte",
+        "sequence": 31
+    },
+    "KT.01": {
+        "description": "Kühler (Wasserkühler/Chiller)",
+        "sequence": 31
+    },
+    "KT.02": {
+        "description": "Kühlturm",
+        "sequence": 31
+    },
+    "KT.03": {
+        "description": "Kaltwasserpumpe",
+        "sequence": 31
+    },
+    "KT.04": {
+        "description": "Kaltwasserrohre",
+        "sequence": 31
+    },
+    "KT.05": {
+        "description": "Rohrarmaturen (Kaltwassersystem)",
+        "sequence": 31
+    },
+    "KT.06": {
+        "description": "Kältefittings: Bögen",
+        "sequence": 31
+    },
+    "KT.07": {
+        "description": "Kältefittings: T-Stück",
+        "sequence": 31
+    },
+    "KT.08": {
+        "description": "Ventile (Kaltwassersystem)",
+        "sequence": 31
+    },
+    "KT.09": {
+        "description": "Ausdehnungsgefäß (Kaltwassersystem)",
+        "sequence": 31
+    },
+    "KT.10": {
+        "description": "FanCoil-Gerät (Kühlung)",
+        "sequence": 49
+    },
+    "LF": {
+        "description": "Lüftung",
+        "sequence": 31
+    },
+    "LF.01": {
+        "description": "Lüftungsgerät / AHU (Air Handling Unit)",
+        "sequence": 31
+    },
+    "LF.02": {
+        "description": "Ventilator (Lüftungsventilator)",
+        "sequence": 31
+    },
+    "LF.03": {
+        "description": "Luftkanal (gerades Segment)",
+        "sequence": 31
+    },
+    "LF.04": {
+        "description": "Luftfittings: Bögen",
+        "sequence": 31
+    },
+    "LF.05": {
+        "description": "Luftfittings: T-Stücke",
+        "sequence": 31
+    },
+    "LF.06": {
+        "description": "Drosselklappen (Luftstromdrossler)",
+        "sequence": 31
+    },
+    "LF.07": {
+        "description": "Luftschalldämpfer (Akustikabsorber)",
+        "sequence": 31
+    },
+    "LF.08": {
+        "description": "Luftfilter",
+        "sequence": 31
+    },
+    "LF.09": {
+        "description": "Luftauslass (Diffusor/Grill)",
+        "sequence": 47
+    },
+    "LF.10": {
+        "description": "VAV-Endgerät (Variable Air Volume Box)",
+        "sequence": 31
+    },
+    "LF.11": {
+        "description": "Wärmerückgewinnungsgerät",
+        "sequence": 31
+    },
+    "LF.12": {
+        "description": "Befeuchter",
+        "sequence": 31
+    },
+    "LF.13": {
+        "description": "Lüftungdämmung",
+        "sequence": 31
+    },
+    "OTH": {
+        "description": "Other",
+        "sequence": 50
+    }
+}

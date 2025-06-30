@@ -1,0 +1,77 @@
+[
+  {
+    "task_id": "SE.01",
+    "object_description": "Site Mobilisation",
+    "start_date": "Mon 01.01.24",
+    "end_date": "Fri 05.01.24",
+    "duration": 5,
+    "phase": "Site Establishment",
+    "sequence": 1,
+    "is_child": true
+  },
+  {
+    "task_id": "SE.02",
+    "object_description": "Perimeter Setup - Hoarding",
+    "start_date": "Sat 06.01.24",
+    "end_date": "Mon 08.01.24",
+    "duration": 3,
+    "phase": "Site Establishment",
+    "sequence": 2,
+    "is_child": true
+  },
+  {
+    "task_id": "SE.03",
+    "object_description": "Site Sheds Setup",
+    "start_date": "Mon 08.01.24",
+    "end_date": "Wed 10.01.24",
+    "duration": 3,
+    "phase": "Site Establishment",
+    "sequence": 3,
+    "is_child": true
+  },
+  {
+    "task_id": "DM.01",
+    "object_description": "Scaffolding Erection for Demolition",
+    "start_date": "Thu 11.01.24",
+    "end_date": "Sat 13.01.24",
+    "duration": 3,
+    "phase": "Demolition",
+    "sequence": 4,
+    "is_child": true
+  },
+  {
+    "task_id": "DM.02",
+    "object_description": "Main Demolition Works",
+    "start_date": "Sun 14.01.24",
+    "end_date": "Tue 23.01.24",
+    "duration": 10,
+    "phase": "Demolition",
+    "sequence": 5,
+    "is_child": true
+  },
+  {
+    "task_id": "DM.03",
+    "object_description": "Scaffolding Dismantling",
+    "start_date": "Wed 24.01.24",
+    "end_date": "Thu 25.01.24",
+    "duration": 2,
+    "phase": "Demolition",
+    "sequence": 6,
+    "is_child": true
+  },
+  {
+    "task_id": "EX.01",
+    "object_description": "Excavation - Medium Soils",
+    "start_date": "Thu 11.01.24",
+    "end_date": "Mon 22.01.24",
+    "duration": 12,
+    "phase": "Excavation",
+    "sequence": 7,
+    "is_child": true,
+    "additional_info": {
+      "volume": 1000,
+      "soil_type": "Medium Soils",
+      "daily_rate": 80.0
+    }
+  }
+]
