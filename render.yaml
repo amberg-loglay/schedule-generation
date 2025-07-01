@@ -11,7 +11,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: PYTHON_VERSION
-        value: 3.9
+        value: 3.11.9
     scaling:
       minInstances: 1
       maxInstances: 1 
