@@ -139,13 +139,35 @@ export const SchedulePlanner: React.FC<SchedulePlannerProps> = ({ onScheduleGene
   const [success, setSuccess] = useState<string | null>(null);
 
   const handleChange = (section: keyof ScheduleState, field: string, value: any) => {
-    setState(prev => ({
-      ...prev,
-      [section]: {
-        ...prev[section],
-        [field]: value
+    setState(prev => {
+      // Handle string values directly (like projectStartDate, buildingType)
+      if (field === '') {
+        return {
+          ...prev,
+          [section]: value
+        };
       }
-    }));
+      
+      // Handle object values with nested properties
+      const currentSection = prev[section];
+      if (typeof currentSection === 'object' && currentSection !== null) {
+        return {
+          ...prev,
+          [section]: {
+            ...currentSection,
+            [field]: value
+          }
+        };
+      }
+      
+      // Fallback for edge cases
+      return {
+        ...prev,
+        [section]: {
+          [field]: value
+        }
+      };
+    });
   };
 
   const generateSchedule = async () => {

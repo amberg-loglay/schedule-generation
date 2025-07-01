@@ -11,8 +11,8 @@ def load_label_sequences():
             with open('label_object_sequenced.json', 'r', encoding='utf-8') as f:
                 return json.load(f)
         else:
-            with open('../label_object_sequenced.json', 'r', encoding='utf-8') as f:
-                return json.load(f)
+        with open('../label_object_sequenced.json', 'r', encoding='utf-8') as f:
+            return json.load(f)
     except FileNotFoundError:
         print("Error: label_object_sequenced.json not found")
         return None
@@ -30,7 +30,7 @@ def load_classification_results():
         for path in possible_paths:
             if os.path.exists(path):
                 with open(path, 'r', encoding='utf-8') as f:
-                    return json.load(f)
+            return json.load(f)
         
         print("Error: classification_results_bim_gemini_20250612_095607.json not found in any expected location")
         return None
