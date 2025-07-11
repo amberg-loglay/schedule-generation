@@ -1,0 +1,11 @@
+{
+  "total_chunks": 5,
+  "chunk_files": [
+    "bim_objects_chunk_001.json",
+    "bim_objects_chunk_002.json",
+    "bim_objects_chunk_003.json",
+    "bim_objects_chunk_004.json",
+    "bim_objects_chunk_005.json"
+  ],
+  "total_objects": 89637
+}

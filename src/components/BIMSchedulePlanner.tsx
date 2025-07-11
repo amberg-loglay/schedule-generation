@@ -35,6 +35,7 @@ import {
 } from '@mui/material';
 import { CloudUpload, Analytics, Schedule, CheckCircle, Build, Calculate } from '@mui/icons-material';
 import { Task } from '../types/schedule';
+import { loadBIMObjects } from '../utils/chunkLoader';
 
 interface BIMObject {
   GlobalId: string;
@@ -202,10 +203,8 @@ export const BIMSchedulePlanner: React.FC<BIMSchedulePlannerProps> = ({ onSchedu
       try {
         console.log('Loading BIM volume data...');
         
-        // Load BIM objects with volume data
-        const bimObjectsWithVolumes: BIMObjectWithVolume[] = await fetch('/bim_objects_with_volumes.json')
-          .then(r => r.json())
-          .catch(() => []);
+        // Load BIM objects with volume data using chunk loader
+        const bimObjectsWithVolumes: BIMObjectWithVolume[] = await loadBIMObjects();
         
         console.log('BIM volume data loaded:', bimObjectsWithVolumes.length, 'objects');
         
@@ -359,9 +358,7 @@ export const BIMSchedulePlanner: React.FC<BIMSchedulePlannerProps> = ({ onSchedu
       // Re-trigger volume data loading now that we have unmapped objects
       const reloadVolumeData = async () => {
         try {
-          const bimObjectsWithVolumes: BIMObjectWithVolume[] = await fetch('/bim_objects_with_volumes.json')
-            .then(r => r.json())
-            .catch(() => []);
+          const bimObjectsWithVolumes: BIMObjectWithVolume[] = await loadBIMObjects();
           
           if (bimObjectsWithVolumes.length > 0) {
             await processBIMVolumeData(bimObjectsWithVolumes);
