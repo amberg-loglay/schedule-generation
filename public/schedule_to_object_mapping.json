@@ -1,0 +1,1673 @@
+{
+  "B00": {
+   "description": "Rohbaukonstruktion",
+   "object_mapping": ["KO.00"]
+ },
+
+ "B00.01": {
+   "description": "Rohbaukonstruktion, unterirdisch erdverbunden",
+   "object_mapping": ["KO.00.01"]
+ },
+
+ "B00.01.01": {
+   "description": "Rohbaukonstruktion, unterirdisch erdverbunden, Betonplatte",
+   "object_mapping": ["KO.00.01.01"]
+ },
+
+ "B00.01.02": {
+   "description": "Rohbaukonstruktion, unterirdisch erdverbunden, Bohrpfähle, Pfähle",
+   "object_mapping": ["KO.00.01.02"]
+ },
+
+
+ "B00.01.03": {
+   "description": "Rohbaukonstruktion, unterirdisch erdverbunden, Stützen",
+   "object_mapping": ["KO.00.01.03"]
+ },
+
+ "B00.01.04": {
+   "description": "Rohbaukonstruktion, unterirdisch erdverbunden, Aussenwände",
+   "object_mapping": ["KO.00.01.04"]
+ },
+
+ "B00.02": {
+   "description": "Rohbaukonstruktion, oberirdisch nicht erdverbunden",
+   "object_mapping": ["KO.00.02"]
+ },
+
+ "B00.02.01": {
+   "description": "Rohbaukonstruktion, oberirdisch nicht erdverbunden, Pfähle",
+   "object_mapping": ["KO.00.02.01"]
+ },
+
+ "B00.02.02": {
+   "description": "Rohbaukonstruktion, oberirdisch nicht erdverbunden, Stützen",
+   "object_mapping": ["KO.00.02.02"]
+ },
+
+ "B00.02.03": {
+   "description": "Rohbaukonstruktion, oberirdisch nicht erdverbunden, Aussenwände",
+   "object_mapping": ["KO.00.02.03"]
+ },
+
+ "B01.04": {
+   "description": "Steigzonen, Erdverbundene Treppe, Rampe",
+   "object_mapping": ["KO.01.04"]
+ },
+ "B01.04.01": {
+   "description": "Steigzonen, Erdverbundene Treppe, Massivbau, Beton, Stahl",
+   "object_mapping": ["KO.01.04.01"]
+ },
+ "B01.04.02": {
+   "description": "Steigzonen, Erdverbundene Treppe, Zusammengebaut, Holz",
+   "object_mapping": ["KO.01.04.02"]
+ },
+ "B01.05": {
+   "description": "Steigzonen, Erdverbundenes Treppenpodest",
+   "object_mapping": ["KO.01.05"]
+ },
+ "B01.05.01": {
+   "description": "Steigzonen, Erdverbundenes Treppenpodest, Massivbau, Beton, Stahl",
+   "object_mapping": ["KO.01.05.01"]
+ },
+ "B01.05.02": {
+   "description": "Steigzonen, Erdverbundenes Treppenpodest, Zusammengebaut, Holz",
+   "object_mapping": ["KO.01.05.02"]
+ },
+ "B01.06": {
+   "description": "Erdverbundener Aufzugschacht",
+   "object_mapping": ["KO.01.06"]
+ },
+ "B01.06.01": {
+   "description": "Erdverbundener Aufzugschacht, Stahlbeton",
+   "object_mapping": ["KO.01.06.01"]
+ },
+ "B01.06.02": {
+   "description": "Erdverbundener Aufzugschacht, Mauerwerk",
+   "object_mapping": ["KO.01.06.02"]
+ },
+ "B01.06.03": {
+   "description": "Erdverbundener Aufzugschacht, Stahlkonstruktion",
+   "object_mapping": ["KO.01.06.03"]
+ },
+ "B02": {
+   "description": "Wandkonstruktion",
+   "object_mapping": ["KO.02"]
+ },
+ "B02.01": {
+   "description": "Aussenwandkonstruktion",
+   "object_mapping": ["KO.02.01"]
+ },
+ "B02.01.01": {
+   "description": "Aussenwand, Massivbau, Beton",
+   "object_mapping": ["K0.02.01.01"]
+ },
+ "B02.01.02": {
+   "description": "Aussenwand, Mauerwerk, Ziegel",
+   "object_mapping": ["K0.02.01.02"]
+ },
+ "B02.01.03": {
+   "description": "Aussenwand, Fertigteilkonstruktion, Holz-Hybrid",
+   "object_mapping": ["K0.02.01.03"]
+ },
+ "B02.01.04": {
+   "description": "Aussenwand, Stahlkonstruktion, Skelettbau",
+   "object_mapping": ["K0.02.01.04"]
+
+ },
+ "B02.02": {
+   "description": "Innenwandkonstruktion",
+   "object_mapping": ["KO.02.02"]
+ },
+ "B02.02.01": {
+   "description": "Innenwand, Massivbau, Beton",
+   "object_mapping": ["K0.02.02.01"]
+ },
+ "B02.02.02": {
+   "description": "Innenwand, Mauerwerk, Ziegel",
+   "object_mapping": ["K0.02.02.02"]
+ },
+ "B02.02.03": {
+   "description": "Innenwand, Stahlkonstruktion",
+   "object_mapping": ["K0.02.02.03"]
+ },
+ "B02.02.04": {
+   "description": "Innenwand, Gipskarton, Trockenbauwand",
+   "object_mapping": ["K0.02.02.04"]
+
+ },
+ "B02.02.05": {
+   "description": "Spezielle Innenwand",
+   "object_mapping": ["KO.02.02.05"]
+ },
+ "B02.02.05.01": {
+   "description": "Innenwand, Leichtbauwand, Holz",
+   "object_mapping": ["KO.02.02.05.01"]
+ },
+ "B02.02.05.02": {
+   "description": "Innenwand, Glasbauwand",
+   "object_mapping": ["KO.02.02.05.02"]
+ },
+ "B02.02.05.03": {
+   "description": "Innenwand, Brandschutzwand",
+   "object_mapping": ["KO.02.02.05.03"]
+ },
+ "B03": {
+   "description": "Stützenkonstruktion",
+   "object_mapping": ["KO.03"]
+ },
+ "B03.01": {
+   "description": "Aussenstützenkonstruktion",
+   "object_mapping": ["KO.03.01"]
+ },
+ "B03.01.01": {
+   "description": "Aussenstützen Rohbau, Massivbau, Beton",
+   "object_mapping": ["KO.03.01.01"]
+ },
+ "B03.01.02": {
+   "description": "Aussenstützen Rohbau, Hybrid-Holzbau",
+   "object_mapping": ["KO.03.01.02"]
+ },
+ "B03.01.03": {
+   "description": "Aussenstützen Rohbau, Stahlbau",
+   "object_mapping": ["KO.03.01.03"]
+ },
+ "B03.02": {
+   "description": "Innenstützenkonstruktion",
+   "object_mapping": ["KO.03.02"]
+ },
+ "B03.02.01": {
+   "description": "Innenstützen Rohbau, Massivbau, Beton",
+   "object_mapping": ["KO.03.02.01"]
+ },
+ "B03.02.02": {
+   "description": "Innenstützen Rohbau, Hybrid-Holzbau",
+   "object_mapping": ["KO.03.02.02"]
+ },
+ "B03.02.03": {
+   "description": "Innenstützen Rohbau, Metall, Stahl",
+   "object_mapping": ["KO.03.02.03"]
+ },
+ "B04": {
+   "description": "Geschossdeckenkonstruktion, Dachkonstruktion",
+   "object_mapping": ["KO.04"]
+ },
+ "B04.01": {
+   "description": "Geschossdecke, Rohbau",
+   "object_mapping": ["KO.04.01"]
+ },
+ "B04.01.01": {
+   "description": "Geschossdecke, Massiv, Beton",
+   "object_mapping": ["KO.04.01.01"]
+ },
+ "B04.01.02": {
+   "description": "Geschossdeckentäger, Stahl, Eisen",
+   "object_mapping": ["KO.04.01.02"]
+ },
+ "B04.02": {
+   "description": "Steigzonen, Innen liegende Treppe, Rampe",
+   "object_mapping": ["KO.04.02"]
+ },
+ "B04.02.01": {
+   "description": "Steigzonen, Innen liegende Treppe, Massivbau, Beton",
+   "object_mapping": ["KO.04.02.01"]
+ },
+ "B04.02.02": {
+   "description": "Steigzonen, Innen liegende Treppe, Zusammengebaut, Holz, Stahl",
+   "object_mapping": ["KO.04.02.02"]
+ },
+ "B04.03": {
+   "description": "Steigzonen, Innen liegendes Treppenpodest",
+   "object_mapping": ["KO.04.03"]
+ },
+ "B04.03.01": {
+   "description": "Steigzonen, Innen liegendes Treppenpodest, Massivbau, Beton",
+   "object_mapping": ["KO.04.03.01"]
+ },
+ "B04.03.02": {
+   "description": "Steigzonen, Innen liegendes Treppenpodest, Zusammengebaut, Holz, Stahl",
+   "object_mapping": ["KO.04.03.02"]
+ },
+ "B04.04": {
+   "description": "Dachkonstruktion",
+   "object_mapping": ["KO.04.04"]
+ },
+ "B04.04.01": {
+   "description": "Dachkonstruktion Flachdach",
+   "object_mapping": ["KO.04.04.01"]
+ },
+ "B04.04.01.01": {
+   "description": "Dachkonstruktion, Flachdach, Massiv, Beton",
+   "object_mapping": ["KO.04.04.01.01"]
+ },
+ "B04.04.01.02": {
+   "description": "Dachkonstruktion, Flach, Träger, Stahl, Eisen",
+   "object_mapping": ["KO.04.04.01.02"]
+ },
+ "B04.04.02": {
+   "description": "Dachkonstruktion geneigtes Dach",
+   "object_mapping": ["KO.04.04.02"]
+ },
+ "B04.04.02.01": {
+   "description": "Dachkonstruktion, geneigtes Dach, Holz, Stahl, Eisen",
+   "object_mapping": ["KO.04.04.02.01"]
+ },
+ "B04.04.02.02": {
+   "description": "Dachkonstruktion, geneigtes Dach, Dachträger, Holz, Stahl, Eisen",
+   "object_mapping": ["KO.04.04.02.02"]
+ },
+ "B04.04.02.03": {
+   "description": "Außen-Dachpaneele",
+   "object_mapping": ["KO.04.04.02.03"]
+ },
+ "B04.04.02.04": {
+   "description": "Außen-Dachpaneele aus Metall",
+   "object_mapping": ["KO.04.04.02.04"]
+ },
+ "B04.04.02.05": {
+   "description": "Außen-Dachpaneele aus Kunststoff",
+   "object_mapping": ["KO.04.04.02.05"]
+ },
+ "B04.04.02.06": {
+   "description": "Außen-Dachpaneele aus Holz",
+   "object_mapping": ["KO.04.04.02.06"]
+ },
+ "B04.04.02.07": {
+   "description": "Außen-Dachpaneele aus Verbundwerkstoff",
+   "object_mapping": ["KO.04.04.02.07"]
+ },
+ "B04.04.02.08": {
+   "description": "Beschichtete Außen-Dachpaneele",
+   "object_mapping": ["KO.04.04.02.08"]
+ },
+ "B04.04.02.09": {
+   "description": "Außen-Dachpaneele mit Gesteinsbeschichtung",
+   "object_mapping": ["KO.04.04.02.09"]
+ },
+ "B04.04.02.10": {
+   "description": "porzellanemaillierte Außen-Dachpaneele",
+   "object_mapping": ["KO.04.04.02.10"]
+ },
+ "B04.04.02.11": {
+   "description": "Außen-Dachpaneele mit Fliesenbeschichtung",
+   "object_mapping": ["KO.04.04.02.11"]
+ },
+ "B04.06": {
+   "description": "Aussen liegende Treppe, Rampe",
+   "object_mapping": ["KO.04.06"]
+ },
+ "B04.06.01": {
+   "description": "Aussen liegende Treppe, Massivbau, Beton",
+   "object_mapping": ["KO.04.06.01"]
+ },
+ "B04.06.02": {
+   "description": "Aussen liegende Treppe, Zusammengebaut, Holz, Stahl",
+   "object_mapping": ["KO.04.06.02"]
+ },
+ "B04.07": {
+   "description": "Aussen liegendes Treppenpodest",
+   "object_mapping": ["KO.04.07"]
+ },
+ "B04.07.01": {
+   "description": "Aussen liegendes Treppenpodest, Massivbau, Beton",
+   "object_mapping": ["KO.04.07.01"]
+ },
+ "B04.07.02": {
+   "description": "Aussen liegendes Treppenpodest, Zusammengebaut, Holz, Stahl",
+   "object_mapping": ["KO.04.07.02"]
+ },
+ "B04.08": {
+   "description": "Aussen liegende Konstruktion, Vordach",
+   "object_mapping": ["KO.04.08"]
+ },
+ "B05": {
+   "description": "Ergänzende Leistung zu Konstruktion",
+   "object_mapping": ["KO.05"]
+ },
+ "B05.01": {
+   "description": "Durchbruch, Schlitz zu Konstruktion",
+   "object_mapping": ["MACH.03"]
+ },
+ "B05.02": {
+   "description": "Maschinensockel, Einlage",
+   "object_mapping": ["MACH.01", "MACH.02"]
+ },
+ "B05.03": {
+   "description": "Other",
+   "object_mapping": ["KO.05.03"]
+},
+ "B06": {
+   "description": "Fassadenkonstruktion",
+   "object_mapping": ["KO.06"]
+},
+ "B06.01": {
+   "description": "Fassadenkonstruktionssystem Vorhangfassade / Pfosten-Riegel-System",
+   "object_mapping": ["KO.06.01"]
+
+},
+ "B06.02": {
+   "description": "Fassadenbekleidungssystem (Metall-/Holz-/Keramik-/Faserzementtafeln)",
+   "object_mapping": ["KO.06.02"]
+
+},
+ "B06.03": {
+   "description": "Fassadesystem, WDVS-System (Putz- und Wärmedämmverbundsystem)",
+   "object_mapping": ["KO.06.03"]
+
+
+},
+ "B06.04": {
+   "description": "Fassaden Dämmung / Isolationsschichten",
+   "object_mapping": ["KO.06.04"]
+
+},
+ "B06.05": {
+   "description": "Fassaden Abdichtung (Fugenbänder, Dichtbahnen)",
+   "object_mapping": ["KO.06.05"]
+
+
+},
+ "B06.06": {
+   "description": "Sonnenschutz (Raffstores, Lamellen, Jalousien)",
+   "object_mapping": ["KO.06.06"]
+
+},
+ "B06.07": {
+   "description": "Fassadenlüftungsklappen",
+   "object_mapping": ["KO.06.07"]
+
+
+},
+ "B06.08": {
+   "description": "Fensteranschlüsse und Leibungen an Fassade",
+   "object_mapping": ["KO.06.08"]
+
+
+},
+ "B06.09": {
+   "description": "Türanschlüsse und Schwellen an Fassade",
+   "object_mapping": ["KO.06.09"]
+
+
+},
+ "B06.10": {
+   "description": "Diverse Fassadenbauteile",
+   "object_mapping": ["KO.06.10"]
+
+
+},
+ "B07": {
+   "description": "Diverse Konstruktionsbauteile",
+   "object_mapping": ["KO.07"]
+
+ },
+ "C": {
+   "description": "Technik Gebäude",
+   "object_mapping": ["OTH"]
+
+ },
+ "C01": {
+   "description": "Elektro",
+   "object_mapping": ["EL"]
+ },
+ "C01.01": {
+   "description": "Anlage Erzeugung Starkstrom",
+   "object_mapping": ["EL.01", "EL.03"]
+ },
+ "C01.02": {
+   "description": "Transformierung Starkstrom",
+   "object_mapping": ["EL.02"]
+ },
+ "C01.03": {
+   "description": "Hauptleitungen",
+   "object_mapping": ["EL.03"]
+ },
+ "C01.03.01": {
+   "description": "Speicherung Starkstrom",
+   "object_mapping": ["EL.05"]
+ },
+ "C01.03.02": {
+   "description": "Installation Starkstrom - Hauptleitungen",
+   "object_mapping": ["EL.03"]
+ },
+ "C01.03.02.01": {
+   "description": "Leerrohre",
+   "object_mapping": ["EL.01"]
+ },
+ "C01.03.02.02": {
+   "description": "Steuerleitungen, Kabelkanäle",
+   "object_mapping": ["EL.03"]
+ },
+ "C01.03.02.02.01": {
+   "description": "Haupttrassen stützen",
+   "object_mapping": ["EL.04"]
+ },
+ "C01.03.02.03": {
+   "description": "Haupttrassen und Verkabelung",
+   "object_mapping": ["EL.04"]
+ },
+ "C01.03.02.03.01": {
+   "description": "Kabeltrassen stützen",
+   "object_mapping": ["EL.04"]
+ },
+ "C01.03.03": {
+   "description": "Kabeltrassen und Stromschienen",
+   "object_mapping": ["EL.04"]
+ },
+ "C01.03.04": {
+   "description": "Hauptkabel und Raumboxen",
+   "object_mapping": ["EL.03"]
+ },
+ "C01.03.05": {
+   "description": "Feintrassierung und Zusatzverkabelung",
+   "object_mapping": ["EL.03"]
+ },
+ "C01.04": {
+   "description": "Verbraucher Starkstrom: Leuchten",
+   "object_mapping": ["EL.07"]
+ },
+ "C01.04.01": {
+   "description": "Technisches Beleuchtungsgerät",
+   "object_mapping": ["EL.07"]
+ },
+ "C01.04.02": {
+   "description": "Innenleuchten",
+   "object_mapping": ["EL.07"]
+ },
+ "C01.04.03": {
+   "description": "Aussenleuchten",
+   "object_mapping": ["EL.07"]
+ },
+ "C01.04.04": {
+   "description": "Spezielle Innenleuchten",
+   "object_mapping": ["EL.07"]
+ },
+  "C01.05": {
+   "description": "Verbraucher Starkstrom: Elektrogeräte",
+   "object_mapping": ["EQUIP"]
+ },
+ "C01.05.01": {
+   "description": "Heizsysteme (Elektroheizung)",
+   "object_mapping": ["EQUIP.01"]
+ },
+ "C01.05.02": {
+   "description": "Elektrogeräte im Haushalt",
+   "object_mapping": ["EQUIP.02"]
+ },
+ "C01.05.03": {
+   "description": "Industriemaschienen",
+   "object_mapping": ["EQUIP.03"]
+ },
+ "C01.05.04": {
+   "description": "Ladestationen",
+   "object_mapping": ["EQUIP.04"]
+ },
+ "C01.06": {
+   "description": "Anlage Erzeugung Schwachstrom",
+   "object_mapping": ["EL.01"]
+ },
+ "C01.07": {
+   "description": "Transformierung Schwachstrom",
+   "object_mapping": ["EL.02"]
+ },
+ "C01.08": {
+   "description": "Speicherung Schwachstrom",
+   "object_mapping": ["EL.05"]
+ },
+ "C01.09": {
+   "description": "Verbraucher Schwachstrom",
+   "object_mapping": ["EL.06"]
+ },
+ "C01.09.01": {
+   "description": "Beleuchtungssysteme",
+   "object_mapping": ["EL.07"]
+ },
+ "C01.09.02": {
+   "description": "Telefonanlagen",
+   "object_mapping": ["EQUIP.05"]
+ },
+ "C01.09.03": {
+   "description": "Netzwerkgeräte",
+   "object_mapping": ["EQUIP.06"]
+ },
+ "C01.09.04": {
+   "description": "Fernseh-/Audiogeräte",
+   "object_mapping": ["EQUIP.07"]
+ },
+ "C01.10": {
+   "description": "Leuchtanschlüsse (-Unterputzdosen)",
+   "object_mapping": ["EL.08", "EL.09", "EL.10"]
+ },
+ "C01.10.01": {
+   "description": "Installation Leuchtmittel, Steckdosen, Schalter, Verteiler, Schaltschränke",
+   "object_mapping": ["EL.08", "EL.09", "EL.10"]
+ },
+ "C01.10.01.01": {
+   "description": "Bedienelemente, Dimmer",
+   "object_mapping": ["EL.09"]
+ },
+ "C02": {
+   "description": "Gebäudeautomation",
+   "object_mapping": ["AUTO"]
+ },
+ "C02.01": {
+   "description": "Managementebene",
+   "object_mapping": ["AUTO.01"]
+ },
+ "C02.02": {
+   "description": "Automationsebene",
+   "object_mapping": ["AUTO.02"]
+ },
+ "C02.03": {
+   "description": "Feldebene",
+   "object_mapping": ["AUTO.04"]
+ },
+ "C02.04": {
+   "description": "Raumautomation",
+   "object_mapping": ["AUTO.03"]
+ },
+ "C02.05": {
+   "description": "Automationsnetzwerk",
+   "object_mapping": ["AUTO.06"]
+ },
+ "C02.06": {
+   "description": "Schaltgerätekombination",
+   "object_mapping": ["AUTO.05"]
+ },
+ "C02.07": {
+   "description": "Systemintegration",
+   "object_mapping": ["AUTO.07"]
+ },
+ "C03": {
+   "description": "Sicherheitsanlage",
+   "object_mapping": ["SEC"]
+ },
+ "C03.01": {
+   "description": "Einbruch-, Überfallmeldeanlage",
+   "object_mapping": ["SEC.01"]
+ },
+ "C03.02": {
+   "description": "Zutrittskontrollanlage",
+   "object_mapping": ["SEC.02"]
+ },
+ "C03.03": {
+   "description": "Videoüberwachungsanlage",
+   "object_mapping": ["SEC.03"]
+ },
+ "C03.04": {
+   "description": "Schliessanlage",
+   "object_mapping": ["SEC.04"]
+ },
+ "C04": {
+   "description": "Technische Brandschutzanlage",
+   "object_mapping": ["SPR"]
+ },
+ "C04.01": {
+   "description": "Brandmeldeanlage",
+   "object_mapping": ["SPR.01", "SPR.02"]
+ },
+ "C04.02": {
+   "description": "Gaswarnanlage",
+   "object_mapping": ["SEC.06"]
+ },
+ "C04.03": {
+   "description": "Nasslöschanlage (Sprinkleranlage)",
+   "object_mapping": ["SPR.01", "SPR.02"]
+ },
+ "C04.03.01": {
+   "description": "Hauptleitung",
+   "object_mapping": ["SPR.02"]
+ },
+ "C04.03.01.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C04.03.01.02": {
+   "description": "Verteilerleitung",
+   "object_mapping": ["SPR.02"]
+ },
+ "C04.03.01.03": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C04.03.02": {
+   "description": "Ringleitung",
+   "object_mapping": ["SPR.02"]
+ },
+ "C04.03.03": {
+   "description": "Sprinklerdüsen",
+   "object_mapping": ["SPR.01"]
+ },
+ "C04.03.04": {
+   "description": "Sprinklerköpfe",
+   "object_mapping": ["SPR.01"]
+ },
+ "C04.04": {
+   "description": "Trockenlöschanlage",
+   "object_mapping": ["SPR.01", "SPR.02"]
+ },
+ "C04.04.01": {
+   "description": "Hauptleitung",
+   "object_mapping": ["SPR.02"]
+ },
+ "C04.04.01.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C04.04.01.02": {
+   "description": "Verteilerleitung",
+   "object_mapping": ["SPR.02"]
+ },
+ "C04.04.01.03": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C04.05": {
+   "description": "Löschgeräte (inkl. Interventionsgeräte)",
+   "object_mapping": ["OTH"]
+ },
+ "C04.06": {
+   "description": "Rauch-, Wärmeabzugsanlage",
+   "object_mapping": ["OTH"]
+ },
+ "C04.07": {
+   "description": "Elektroakustische Lautsprecheranlage",
+   "object_mapping": ["OTH"]
+ },
+ "C05": {
+   "description": "Wärmetechnische Anlage",
+   "object_mapping": ["HZ"]
+ },
+ "C05.01": {
+   "description": "Wärmequelle, - senke, Brennstofflager",
+   "object_mapping": ["HZ.01"]
+ },
+ "C05.02": {
+   "description": "Wärmeerzeugung",
+   "object_mapping": ["HZ.02"]
+ },
+ "C05.02.01": {
+   "description": "Wärmetauscher",
+   "object_mapping": ["HZ.02"]
+ },
+ "C05.03": {
+   "description": "Wärmespeicherung",
+   "object_mapping": ["HEAT.02"]
+ },
+ "C05.04": {
+   "description": "Wärmeverteilung",
+   "object_mapping": ["HZ.04"]
+ },
+ "C05.04.01": {
+   "description": "Hauptleitung",
+   "object_mapping": ["HZ.04"]
+ },
+ "C05.04.01.02": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C05.04.01.03": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C05.04.02": {
+   "description": "Rohrdämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C05.04.02.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C05.04.02.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C05.04.03": {
+   "description": "Heizkreissystem",
+   "object_mapping": ["HZ.04"]
+ },
+ "C05.04.03.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C05.04.03.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C05.04.04": {
+   "description": "Bodenheizungsverteiler",
+   "object_mapping": ["HEAT.04"]
+ },
+ "C05.04.05": {
+   "description": "Pumpe",
+   "object_mapping": ["HZ.03"]
+ },
+ "C05.04.06": {
+   "description": "Regelventil",
+   "object_mapping": ["HZ.05"]
+ },
+ "C05.04.07": {
+   "description": "Wärmezähler",
+   "object_mapping": ["HEAT.03"]
+ },
+ "C05.04.08": {
+   "description": "Expansion",
+   "object_mapping": ["HZ.09"]
+ },
+ "C05.05": {
+   "description": "Wärmeabgabe",
+   "object_mapping": ["HZ.10"]
+ },
+ "C05.05.01": {
+   "description": "Umluftkühlgerät",
+   "object_mapping": ["HEAT.05"]
+ },
+ "C05.05.02": {
+   "description": "Wärmegerät Heizkörper",
+   "object_mapping": ["HZ.10"]
+ },
+ "C05.05.02.01": {
+   "description": "Bedienelemente, (Raum-) Thermostate",
+   "object_mapping": ["HEAT.06"]
+ },
+ "C05.06": {
+   "description": "Wärmebezug: Investitionsanteil",
+   "object_mapping": ["OTH"]
+ },
+ "C06": {
+   "description": "Kältetechnische Anlage",
+   "object_mapping": ["KT"]
+ },
+ "C06.01": {
+   "description": "Kältequelle, -senke, Brennstofflager",
+   "object_mapping": ["KT.01", "KT.02"]
+ },
+ "C06.02": {
+   "description": "Kälteerzeugung",
+   "object_mapping": ["KT.01"]
+ },
+ "C06.02.01": {
+   "description": "Wärmetauscher",
+   "object_mapping": ["KT.01"]
+ },
+ "C06.03": {
+   "description": "Kältespeicherung",
+   "object_mapping": ["COOL.01"]
+ },
+ "C06.04": {
+   "description": "Kälteverteilung",
+   "object_mapping": ["KT.04"]
+ },
+ "C06.04.01": {
+   "description": "Hauptleitung",
+   "object_mapping": ["KT.04"]
+ },
+ "C06.04.01.01": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C06.04.02": {
+   "description": "Verteilerleitung",
+   "object_mapping": ["KT.04"]
+ },
+ "C06.04.02.01": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C06.04.03": {
+   "description": "Rohre und Formteile",
+   "object_mapping": ["KT.04"]
+ },
+ "C06.04.03.01": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C06.04.04": {
+   "description": "Bodenheizungsverteiler",
+   "object_mapping": ["OTH"]
+ },
+ "C06.04.05": {
+   "description": "Pumpe",
+   "object_mapping": ["KT.03"]
+ },
+ "C06.04.06": {
+   "description": "Regelventil",
+   "object_mapping": ["OTH"]
+ },
+ "C06.04.07": {
+   "description": "Wärmezähler",
+   "object_mapping": ["OTH"]
+ },
+ "C06.04.08": {
+   "description": "Expansion",
+   "object_mapping": ["KT.09"]
+ },
+ "C06.05": {
+   "description": "Kälteabgabe",
+   "object_mapping": ["OTH"]
+ },
+ "C06.05.01": {
+   "description": "Umluftkühlgerät",
+   "object_mapping": ["COOL.03"]
+ },
+ "C06.06": {
+   "description": "Kältekühldecken",
+   "object_mapping": ["COOL.02"]
+ },
+ "C07": {
+   "description": "Lufttechnische Anlage",
+   "object_mapping": ["LF"]
+ },
+ "C07.01": {
+   "description": "Aussenluftversorgung, Fortluftführung",
+   "object_mapping": ["LF.01", "LF.02"]
+ },
+ "C07.01.01": {
+   "description": "Lüftungsschächte",
+   "object_mapping": ["LF.03"]
+ },
+ "C07.01.02": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C07.02": {
+   "description": "Luftaufbereitung",
+   "object_mapping": ["LF.01", "LF.02"]
+ },
+ "C07.02.01": {
+   "description": "Monoblock",
+   "object_mapping": ["OTH"]
+ },
+ "C07.02.02": {
+   "description": "Heiz-/Kühlregister",
+   "object_mapping": ["OTH"]
+ },
+ "C07.02.03": {
+   "description": "Luftbefeuchtung",
+   "object_mapping": ["LF.12"]
+ },
+ "C07.02.04": {
+   "description": "Luftfilter",
+   "object_mapping": ["LF.08"]
+ },
+ "C07.02.05": {
+   "description": "Dachventilator",
+   "object_mapping": ["LF.02"]
+ },
+ "C07.02.06": {
+   "description": "Kanalventilator",
+   "object_mapping": ["LF.02"]
+ },
+ "C07.02.07": {
+   "description": "Rohrventilator",
+   "object_mapping": ["LF.02"]
+ },
+ "C07.03": {
+   "description": "Luftwärmespeicherung",
+   "object_mapping": ["OTH"]
+ },
+ "C07.04": {
+   "description": "Luftverteilung (Kanalnetz, Armaturen, BSK)",
+   "object_mapping": ["LF.03"]
+ },
+ "C07.04.01": {
+   "description": "Lüftungskanal und Formteile",
+   "object_mapping": ["LF.03"]
+ },
+ "C07.04.02": {
+   "description": "Hauptkanäle",
+   "object_mapping": ["LF.03"]
+ },
+ "C07.04.03": {
+   "description": "Verteiler",
+   "object_mapping": ["OTH"]
+ },
+ "C07.04.04": {
+   "description": "Dämmung",
+   "object_mapping": ["LF.13"]
+ },
+ "C07.04.05": {
+   "description": "Aussenluftgitter",
+   "object_mapping": ["OTH"]
+ },
+ "C07.04.06": {
+   "description": "Kanalschalldämpfer",
+   "object_mapping": ["LF.07"]
+ },
+ "C07.04.07": {
+   "description": "Entrauchungsklappe",
+   "object_mapping": ["OTH"]
+ },
+ "C07.04.08": {
+   "description": "Rauchschutzklappe",
+   "object_mapping": ["OTH"]
+ },
+ "C07.04.09": {
+   "description": "Volumenstromregler Variabel",
+   "object_mapping": ["OTH"]
+ },
+ "C07.05": {
+   "description": "Luftabgabe (Luftauslässe)",
+   "object_mapping": ["LF.09"]
+ },
+ "C07.05.01": {
+   "description": "Zu- & Abluftgitter",
+   "object_mapping": ["LF.09"]
+ },
+ "C07.06": {
+   "description": "Luft: Bedienfelder",
+   "object_mapping": ["OTH"]
+ },
+ "C07.07": {
+   "description": "Luft: Investitionsanteil",
+   "object_mapping": ["OTH"]
+ },
+ "C08": {
+   "description": "Wassertechnische Anlage",
+   "object_mapping": ["SN"]
+ },
+ "C08.01": {
+   "description": "Wasserversorgung",
+   "object_mapping": ["SN.01"]
+ },
+ "C08.01.01": {
+   "description": "Frischwasserstation",
+   "object_mapping": ["SN.01"]
+ },
+ "C08.01.02": {
+   "description": "Trinkwasserstation",
+   "object_mapping": ["SN.01"]
+ },
+ "C08.02": {
+   "description": "Wasserbehandlung",
+   "object_mapping": ["OTH"]
+ },
+ "C08.02.01": {
+   "description": "Enthärtungsanlage",
+   "object_mapping": ["OTH"]
+ },
+ "C08.02.02": {
+   "description": "Osmoseanlage",
+   "object_mapping": ["OTH"]
+ },
+ "C08.03": {
+   "description": "Wasserspeicher",
+   "object_mapping": ["SN.07"]
+ },
+ "C08.04": {
+   "description": "Wasserverteilungsnetz",
+   "object_mapping": ["SN.01"]
+ },
+ "C08.04.01": {
+   "description": "Hauptleitung",
+   "object_mapping": ["SN.01"]
+ },
+ "C08.04.01.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.01.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.02": {
+   "description": "Verteilerleitung",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.02.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.02.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.03": {
+   "description": "Rohre und Formteile",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.03.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.03.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.04": {
+   "description": "Montage Verteilerkasten",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.05": {
+   "description": "Rohrdämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C08.04.06": {
+   "description": "Pumpe",
+   "object_mapping": ["SN.07"]
+ },
+ "C08.04.07": {
+   "description": "Druckerhöhungsanlage",
+   "object_mapping": ["WATER.05"]
+ },
+ "C08.05": {
+   "description": "Wasser: Armatur, Apparat",
+   "object_mapping": ["SN.06"]
+ },
+ "C08.05.01": {
+   "description": "Ventil und Messgeräte",
+   "object_mapping": ["SN.06"]
+ },
+ "C08.05.02": {
+   "description": "Wasserzähler",
+   "object_mapping": ["SN.06"]
+ },
+ "C08.06": {
+   "description": "Sanitär: Installationselement: Vorwandsystem WC-Träger",
+   "object_mapping": ["OTH"]
+ },
+ "C08.06.01": {
+   "description": "Sanitärapparate: WC, Waschtisch, Siphons",
+   "object_mapping": ["SN.09", "SN.10", "SN.11", "SN.12"]
+ },
+ "C08.06.01.01": {
+   "description": "Amaturen, Duschköpfe, WC-Sitz, Wasserhahn",
+   "object_mapping": ["OTH"]
+ },
+ "C09": {
+   "description": "Abwassertechnische Anlage",
+   "object_mapping": ["SN.12"]
+ },
+ "C09.01": {
+   "description": "Abwasserentsorgung",
+   "object_mapping": ["SN.12"]
+ },
+ "C09.01.01": {
+   "description": "Fäkalienhebeanlage",
+   "object_mapping": ["WASTE.01"]
+ },
+ "C09.01.02": {
+   "description": "Zentrale Abwasserentsorgung",
+   "object_mapping": ["SN.12"]
+ },
+ "C09.01.03": {
+   "description": "Dezentrale Abwasserentsorgung",
+   "object_mapping": ["SN.12"]
+ },
+ "C09.02": {
+   "description": "Besondere Abwassersysteme",
+   "object_mapping": ["OTH"]
+ },
+ "C09.03": {
+   "description": "Abwasserbehandlung",
+   "object_mapping": ["WASTE.02"]
+ },
+ "C09.03.01": {
+   "description": "Mechanische Reinigung",
+   "object_mapping": ["WASTE.03"]
+ },
+ "C09.03.02": {
+   "description": "Biologische Reinigung",
+   "object_mapping": ["WASTE.04"]
+ },
+ "C09.03.03": {
+   "description": "Chemische Reinigung",
+   "object_mapping": ["WASTE.05"]
+ },
+ "C09.04": {
+   "description": "Abwasserspeicher",
+   "object_mapping": ["WASTE.06"]
+ },
+ "C09.05": {
+   "description": "Abwassersammlung",
+   "object_mapping": ["SN.12"]
+ },
+ "C09.06": {
+   "description": "Abwasser: Armatur, Apparat",
+   "object_mapping": ["SN.12"]
+ },
+ "C09.07": {
+   "description": "Hauptleitung",
+   "object_mapping": ["SN.12"]
+ },
+ "C09.07.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C09.07.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C09.08": {
+   "description": "Verteilerleitung",
+   "object_mapping": ["OTH"]
+ },
+ "C09.08.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C09.08.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C09.09.01": {
+   "description": "Rohre und Formteile",
+   "object_mapping": ["OTH"]
+ },
+ "C09.09.02": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C09.09.03": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C09.09.04": {
+   "description": "Rohrdämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C10": {
+   "description": "Gastechnische Anlage",
+   "object_mapping": ["GAS"]
+ },
+ "C10.01": {
+   "description": "Gasversorgung - Gashauptleitung",
+   "object_mapping": ["GAS.01"]
+ },
+ "C10.01.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C10.01.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C10.02": {
+   "description": "Gasverteilung",
+   "object_mapping": ["GAS.02"]
+ },
+ "C10.02.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C10.02.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C10.03": {
+   "description": "Rohre und Formteile",
+   "object_mapping": ["GAS.01"]
+ },
+ "C10.03.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C10.03.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C10.04": {
+   "description": "Gas: Armatur, Apparat",
+   "object_mapping": ["GAS.03"]
+ },
+ "C10.04.01": {
+   "description": "Ventil und Messgeräte",
+   "object_mapping": ["GAS.03", "GAS.04"]
+ },
+ "C10.04.02": {
+   "description": "Apparate / Armaturen",
+   "object_mapping": ["GAS.03"]
+ },
+ "C10.04.03": {
+   "description": "Pumpe",
+   "object_mapping": ["GAS.05"]
+ },
+ "C11": {
+   "description": "Anlage für Spezialmedien",
+   "object_mapping": ["SPEC"]
+ },
+ "C11.01": {
+   "description": "Spezialmedien: Versorgung, Entsorgung",
+   "object_mapping": ["SPEC.01", "SPEC.02"]
+ },
+ "C11.01.01": {
+   "description": "Medgasentnahmestellen",
+   "object_mapping": ["SPEC.03"]
+ },
+ "C11.01.02": {
+   "description": "Bereichskontrolleinheiten",
+   "object_mapping": ["SPEC.04"]
+ },
+ "C11.02": {
+   "description": "Spezialmedien: Aufbereitung",
+   "object_mapping": ["SPEC.05", "SPEC.06"]
+ },
+ "C11.02.01": {
+   "description": "Druckluftkompressor und Vakuumpumpen",
+   "object_mapping": ["SPEC.05", "SPEC.06"]
+ },
+ "C11.03": {
+   "description": "Spezialmedien: Speicherung",
+   "object_mapping": ["SPEC.06"]
+ },
+ "C11.04": {
+   "description": "Spezialmedien: Verteilung",
+   "object_mapping": ["SPEC.01", "SPEC.02"]
+ },
+ "C11.05": {
+   "description": "Hauptleitung",
+   "object_mapping": ["SPEC.01", "SPEC.02"]
+ },
+ "C11.05.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C11.05.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C11.06": {
+   "description": "Verteilerleitung",
+   "object_mapping": ["SPEC.01", "SPEC.02"]
+ },
+ "C11.06.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C11.06.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C11.07": {
+   "description": "Rohre und Formteile",
+   "object_mapping": ["SPEC.01", "SPEC.02"]
+ },
+ "C11.07.01": {
+   "description": "Dichtheitsprüfung",
+   "object_mapping": ["OTH"]
+ },
+ "C11.07.02": {
+   "description": "Dämmung",
+   "object_mapping": ["OTH"]
+ },
+ "C11.08": {
+   "description": "Spezialmedien: Armatur, Apparat",
+   "object_mapping": ["SPEC.03"]
+ },
+ "C11.08.01": {
+   "description": "Formteile",
+   "object_mapping": ["SPEC.01", "SPEC.02"]
+ },
+ "C12": {
+   "description": "Beförderungsanlage",
+   "object_mapping": ["TRANS"]
+ },
+ "C12.01": {
+   "description": "Personenaufzug",
+   "object_mapping": ["TRANS.01", "TRANS.02", "TRANS.03", "TRANS.04"]
+ },
+ "C12.02": {
+   "description": "Lasten- und Serviceaufzug",
+   "object_mapping": ["TRANS.01", "TRANS.02", "TRANS.03", "TRANS.04"]
+ },
+ "C12.03": {
+   "description": "Spezialaufzug",
+   "object_mapping": ["TRANS.01", "TRANS.02", "TRANS.03", "TRANS.04"]
+ },
+ "C12.04": {
+   "description": "Fahrtreppe",
+   "object_mapping": ["TRANS.05"]
+ },
+ "C12.05": {
+   "description": "Fahrsteig",
+   "object_mapping": ["TRANS.06"]
+ },
+ "C12.06": {
+   "description": "Hebeeinrichtung, Verladestation",
+   "object_mapping": ["TRANS.07"]
+ },
+ "C13": {
+   "description": "Other",
+   "object_mapping": ["OTH"]
+ },
+ "D": {
+     "description": "Äussere Wandbekleidung Fassade",
+     "object_mapping": ["KO.06"]
+ },
+ "D01": {
+     "description": "Äussere Wandbekleidung unter Terrain",
+     "object_mapping": ["KO.06.04"]
+ },
+ "D01.01": {
+     "description": "Wandabdichtung unter Terrain",
+     "object_mapping": ["KO.06.05"]
+ },
+ "D01.02": {
+     "description": "Aussenwärmedämmung unter Terrain",
+     "object_mapping": ["KO.06.04"]
+ },
+ "D02": {
+     "description": "Äussere Wandbekleidung über Terrain",
+     "object_mapping": ["KO.06"]
+ },
+ "D02.01": {
+     "description": "Äussere Beschichtung",
+     "object_mapping": ["KO.06.03"]
+ },
+ "D02.02": {
+     "description": "Aussenwärmedämmung",
+     "object_mapping": ["KO.06.04"]
+ },
+ "D02.03": {
+     "description": "Fassadenbekleidung",
+     "object_mapping": ["KO.06.02"]
+ },
+ "D02.03.01": {
+     "description": "Vorgehängte hinterlüftete Fassade",
+     "object_mapping": ["KO.06.01"]
+ },
+ "D02.03.02": {
+     "description": "Wärmedämmverbundsystem (WDVS)",
+     "object_mapping": ["KO.06.03"]
+ },
+ "D02.03.03": {
+     "description": "Verblendmauerwerk",
+     "object_mapping": ["OTH"]
+ },
+ "D02.03.04": {
+     "description": "Holzfassade",
+     "object_mapping": ["KO.06.02"]
+ },
+ "D02.03.05": {
+     "description": "Metallfassade",
+     "object_mapping": ["KO.06.02"]
+ },
+ "D02.03.06": {
+     "description": "Glassfassade",
+     "object_mapping": ["KO.06.01"]
+ },
+ "D02.04": {
+     "description": "Fassadensystem",
+     "object_mapping": ["KO.06.01"]
+ },
+ "D02.04.01": {
+     "description": "Solarintegrationfassade",
+     "object_mapping": ["KO.06.10"]
+ },
+ "D02.04.02": {
+     "description": "Holzfassade",
+     "object_mapping": ["KO.06.02"]
+ },
+ "D02.04.03": {
+     "description": "Putz-/Mörtelfassade",
+     "object_mapping": ["KO.06.03"]
+ },
+ "D02.04.04": {
+     "description": "Vorhangfassade",
+     "object_mapping": ["KO.06.01"]
+ },
+ "D02.04.05": {
+     "description": "Verbundfassade",
+     "object_mapping": ["KO.06.02"]
+ },
+ "D02.04.06": {
+     "description": "Pfosten",
+     "object_mapping": ["KO.06.01"]
+ },
+ "D02.04.07": {
+     "description": "Riegel",
+     "object_mapping": ["KO.06.01"]
+ },
+ "D02.04.08": {
+     "description": "Fassadepanel",
+     "object_mapping": ["KO.06.02"]
+ },
+ "D02.04.09": {
+     "description": "Fassade Verglassung",
+     "object_mapping": ["KO.06.01"]
+ },
+ "D02.05": {
+     "description": "Bekleidung Unterschicht",
+     "object_mapping": ["KO.06.04"]
+ },
+ "D03": {
+     "description": "Einbaute zu Aussenwand",
+     "object_mapping": ["KO.06.08", "KO.06.09"]
+ },
+ "D03.03": {
+     "description": "Aussentor",
+     "object_mapping": ["KO.06.09"]
+ },
+ "D03.04": {
+     "description": "Sonnenschutz, Wetterschutz",
+     "object_mapping": ["KO.06.06"]
+ },
+ "D03.05": {
+     "description": "Absturzsicherung",
+     "object_mapping": ["KO.06.10"]
+ },
+ "D04": {
+     "description": "Other",
+     "object_mapping": ["OTH"]
+},
+"E": {
+ "description": "Bedachung Gebäude",
+ "object_mapping": ["KO.04.04"]
+},
+"E01": {
+ "description": "Dachhaut",
+ "object_mapping": ["KO.04.04.01", "KO.04.04.02"]
+},
+"E01.01": {
+ "description": "Dacheindeckung",
+ "object_mapping": ["KO.04.04.02.03"]
+},
+"E01.02": {
+ "description": "Dachabdichtung unter Terrain",
+ "object_mapping": ["KO.04.04.01"]
+},
+"E01.03": {
+ "description": "Flachdach",
+ "object_mapping": ["KO.04.04.01"]
+},
+"E01.04": {
+ "description": "Geneigtes Dach",
+ "object_mapping": ["KO.04.04.02"]
+},
+"E01.05": {
+ "description": "Systemdach",
+ "object_mapping": ["KO.04.04.02.03"]
+},
+"E02": {
+ "description": "Element zu Dach",
+ "object_mapping": ["KO.04.04.02"]
+},
+"E03": {
+ "description": "Other",
+ "object_mapping": ["OTH"]
+},
+"F": {
+ "description": "Ausbau Gebäude",
+ "object_mapping": ["OTH"]
+},
+"F01": {
+ "description": "Trennwand, Innentür, Innentor",
+ "object_mapping": ["KO.02.02"]
+},
+"F01.01": {
+ "description": "Feststehende Trennwand",
+ "object_mapping": ["KO.02.02.05"]
+},
+"F01.01.01": {
+ "description": "Gipskarton",
+ "object_mapping": ["OTH"]
+},
+"F01.01.02": {
+ "description": "Vorschatzschale",
+ "object_mapping": ["OTH"]
+},
+"F01.01.03": {
+ "description": "Wood",
+ "object_mapping": ["KO.02.02.05.01"]
+},
+"F01.01.04": {
+ "description": "Mauerwerk",
+ "object_mapping": ["OTH"]
+},
+"F01.01.11": {
+ "description": "Glas",
+ "object_mapping": ["KO.02.02.05.02"]
+},
+"F01.02": {
+ "description": "Bewegliche Trennwand",
+ "object_mapping": ["KO.02.02.05"]
+},
+"F01.03": {
+ "description": "Schachfront",
+ "object_mapping": ["OTH"]
+},
+"F01.04": {
+ "description": "Innenfenster",
+ "object_mapping": ["KO.06.08"]
+},
+"F01.05": {
+ "description": "Innentür",
+ "object_mapping": ["KO.06.09"]
+},
+"F01.07": {
+ "description": "Brandschutztüren",
+ "object_mapping": ["KO.02.02.05.03"]
+},
+"F03": {
+ "description": "Wandbekleidung",
+ "object_mapping": ["OTH"]
+},
+"F04": {
+ "description": "Deckenbekleidung",
+ "object_mapping": ["OTH"]
+},
+"F05": {
+ "description": "Einbaute, Schutzeinrichtung zu Ausbau",
+ "object_mapping": ["OTH"]
+},
+"F06": {
+ "description": "Ergänzende Leistung zu Ausbau",
+ "object_mapping": ["OTH"]
+},
+"G": {
+ "description": "Nutzungsspezifische Anlage Gebäude",
+ "object_mapping": ["OTH"]
+},
+"G01": {
+ "description": "Produktionsanlage",
+ "object_mapping": ["OTH"]
+},
+"G02": {
+ "description": "Laboranlage",
+ "object_mapping": ["OTH"]
+},
+"G03": {
+ "description": "Grossküche",
+ "object_mapping": ["OTH"]
+},
+"G04": {
+ "description": "Wäscherei-, Reinigungsanlage",
+ "object_mapping": ["OTH"]
+},
+"G05": {
+ "description": "Anlage für Gesundheit",
+ "object_mapping": ["OTH"]
+},
+"G06": {
+ "description": "Anlage Bildung, Kultur",
+ "object_mapping": ["OTH"]
+},
+"G07": {
+ "description": "Sportanlage, Freizeitanlage",
+ "object_mapping": ["OTH"]
+},
+"G08": {
+ "description": "Anlage für Erholung",
+ "object_mapping": ["OTH"]
+},
+"G09": {
+ "description": "Weitere nutzungsspezifische Anlage",
+ "object_mapping": ["OTH"]
+},
+"H": {
+ "description": "Umgebung, Gebäude",
+ "object_mapping": ["OTH"]
+},
+"H01": {
+ "description": "Umgebungsgestaltung",
+ "object_mapping": ["OTH"]
+},
+"H02": {
+ "description": "Bauwerk in der Umgebung",
+ "object_mapping": ["OTH"]
+},
+"H03": {
+ "description": "Grünfläche",
+ "object_mapping": ["OTH"]
+},
+"H04": {
+ "description": "Hartfläche",
+ "object_mapping": ["OTH"]
+},
+"H05": {
+ "description": "Technik Umgebung",
+ "object_mapping": ["OTH"]
+},
+"H06": {
+ "description": "Ausstattung Umgebung",
+ "object_mapping": ["OTH"]
+},
+"I": {
+ "description": "Ausstattung Gebäude",
+ "object_mapping": ["OTH"]
+},
+"I01": {
+ "description": "Mobiliar",
+ "object_mapping": ["OTH"]
+},
+"I02": {
+ "description": "Kleininventar",
+ "object_mapping": ["OTH"]
+},
+"I03": {
+ "description": "Textilien",
+ "object_mapping": ["OTH"]
+},
+"I04": {
+ "description": "Kunst am Bau",
+ "object_mapping": ["OTH"]
+},
+"J": {
+ "description": "Trockenbau / Gipser",
+ "object_mapping": ["OTH"]
+},
+"J01": {
+ "description": "Ständerwerk Innenwand",
+ "object_mapping": ["KO.02.02.05"]
+},
+"K": {
+ "description": "Maler",
+ "object_mapping": ["OTH"]
+},
+"L": {
+ "description": "Schreiner",
+ "object_mapping": ["OTH"]
+},
+"M": {
+ "description": "Schlosser",
+ "object_mapping": ["OTH"]
+},
+"N": {
+ "description": "Glasser",
+ "object_mapping": ["KO.06.01"]
+},
+"O": {
+ "description": "Estrichleger / Bodenleger",
+ "object_mapping": ["OTH"]
+ }
+}

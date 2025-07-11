@@ -10,13 +10,10 @@ import {
   FormControl,
   FormControlLabel,
   InputLabel,
-  Button,
   Slider,
   Paper,
   Divider,
   Grid,
-  Alert,
-  CircularProgress,
 } from '@mui/material';
 import { Task } from '../types/schedule';
 
@@ -28,7 +25,6 @@ interface ConstructionPhase {
 }
 
 interface ScheduleState {
-  projectStartDate: string;
   buildingType: string;
   siteEstablishment: ConstructionPhase & {
     mobiliseDuration: number;
@@ -74,11 +70,11 @@ interface ScheduleState {
 }
 
 interface SchedulePlannerProps {
-  onScheduleGenerated?: (schedule: Task[]) => void;
+  projectStartDate: string;
+  onConstructionPhaseChange?: (constructionPhaseData: ScheduleState) => void;
 }
 
 const initialState: ScheduleState = {
-  projectStartDate: '',
   buildingType: 'Highrise Residential',
   siteEstablishment: {
     enabled: false,
@@ -132,85 +128,48 @@ const initialState: ScheduleState = {
   }
 };
 
-export const SchedulePlanner: React.FC<SchedulePlannerProps> = ({ onScheduleGenerated }) => {
+export const SchedulePlanner: React.FC<SchedulePlannerProps> = ({ projectStartDate, onConstructionPhaseChange }) => {
   const [state, setState] = useState<ScheduleState>(initialState);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [success, setSuccess] = useState<string | null>(null);
 
   const handleChange = (section: keyof ScheduleState, field: string, value: any) => {
     setState(prev => {
-      // Handle string values directly (like projectStartDate, buildingType)
+      // Handle string values directly (like buildingType)
       if (field === '') {
-        return {
+        const newState = {
           ...prev,
           [section]: value
         };
+        // Automatically notify parent of state changes
+        onConstructionPhaseChange?.(newState);
+        return newState;
       }
       
       // Handle object values with nested properties
       const currentSection = prev[section];
       if (typeof currentSection === 'object' && currentSection !== null) {
-        return {
-          ...prev,
-          [section]: {
+        const newState = {
+      ...prev,
+      [section]: {
             ...currentSection,
-            [field]: value
-          }
+        [field]: value
+      }
         };
+        // Automatically notify parent of state changes
+        onConstructionPhaseChange?.(newState);
+        return newState;
       }
       
       // Fallback for edge cases
-      return {
+      const newState = {
         ...prev,
         [section]: {
           [field]: value
         }
       };
+      // Automatically notify parent of state changes
+      onConstructionPhaseChange?.(newState);
+      return newState;
     });
-  };
-
-  const generateSchedule = async () => {
-    setLoading(true);
-    setError(null);
-    setSuccess(null);
-    
-    try {
-      console.log('Sending schedule parameters:', state);
-      
-      const response = await fetch('/api/generate-schedule', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(state),
-      });
-      
-      console.log('Response status:', response.status);
-      
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => ({}));
-        throw new Error(errorData.error || `HTTP error! status: ${response.status}`);
-      }
-      
-      const result = await response.json();
-      console.log('Schedule generated:', result);
-      
-      if (result.success && result.schedule) {
-        setSuccess('Schedule generated successfully!');
-        console.log('Received schedule data:', result.schedule);
-        if (onScheduleGenerated) {
-          onScheduleGenerated(result.schedule);
-        }
-      } else {
-        throw new Error(result.error || 'Failed to generate schedule');
-      }
-    } catch (error) {
-      console.error('Error generating schedule:', error);
-      setError(error instanceof Error ? error.message : 'An unknown error occurred');
-    } finally {
-      setLoading(false);
-    }
   };
 
   return (
@@ -228,16 +187,6 @@ export const SchedulePlanner: React.FC<SchedulePlannerProps> = ({ onScheduleGene
             </Typography>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6}>
-                <TextField
-                  fullWidth
-                  type="date"
-                  label="Project Start Date"
-                  value={state.projectStartDate}
-                  onChange={(e) => handleChange('projectStartDate', '', e.target.value)}
-                  InputLabelProps={{ shrink: true }}
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
                 <FormControl fullWidth>
                   <InputLabel>Building Type</InputLabel>
                   <Select
@@ -251,6 +200,11 @@ export const SchedulePlanner: React.FC<SchedulePlannerProps> = ({ onScheduleGene
                     <MenuItem value="Other">Other</MenuItem>
                   </Select>
                 </FormControl>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <Typography variant="body2" color="text.secondary">
+                  Configure your construction phases below. Parameters will be included when generating the schedule from the BIM Objects & Tasks tab.
+                </Typography>
               </Grid>
             </Grid>
           </Grid>
@@ -594,32 +548,6 @@ export const SchedulePlanner: React.FC<SchedulePlannerProps> = ({ onScheduleGene
               </Grid>
             )}
           </Grid>
-
-          {/* Generate Button */}
-          <Grid item xs={12}>
-            <Button
-              variant="contained"
-              color="primary"
-              size="large"
-              onClick={generateSchedule}
-              fullWidth
-              disabled={loading}
-            >
-              {loading ? <CircularProgress size={24} /> : 'Generate Schedule'}
-            </Button>
-          </Grid>
-
-          {error && (
-            <Grid item xs={12}>
-              <Alert severity="error">{error}</Alert>
-            </Grid>
-          )}
-
-          {success && (
-            <Grid item xs={12}>
-              <Alert severity="success">{success}</Alert>
-            </Grid>
-          )}
         </Grid>
       </Paper>
     </Container>

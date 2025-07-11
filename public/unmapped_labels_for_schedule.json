@@ -1,0 +1,1798 @@
+[
+  {
+    "object_code": "KO.01.01",
+    "description": "Unterbau Fundament, Bodenplatte",
+    "sequence": 1,
+    "total_objects": 12,
+    "floors_distribution": {
+      "UG01": 12
+    },
+    "suggested_task_name": "Construction of Unterbau Fundament, Bodenplatte",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.01.01.03",
+    "description": "Medienkanäle",
+    "sequence": 3,
+    "total_objects": 53,
+    "floors_distribution": {
+      "OG03": 53
+    },
+    "suggested_task_name": "Construction of Medienkanäle",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.01.04.01",
+    "description": "Massivbau",
+    "sequence": 6,
+    "total_objects": 4,
+    "floors_distribution": {
+      "Geschoss 1": 4
+    },
+    "suggested_task_name": "Construction of Massivbau",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.03.01.03",
+    "description": "Stützen Stahlbau",
+    "sequence": 8,
+    "total_objects": 727,
+    "floors_distribution": {
+      "OG01": 74,
+      "OG02": 85,
+      "OG03": 159,
+      "OG04": 159,
+      "OG05": 83,
+      "OG06": 80,
+      "OG07": 85
+    },
+    "suggested_task_name": "Construction of Stützen Stahlbau",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.03.02.03",
+    "description": "Stützen Metallbau",
+    "sequence": 9,
+    "total_objects": 7,
+    "floors_distribution": {
+      "OG04": 6
+    },
+    "suggested_task_name": "Construction of Stützen Metallbau",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "K0.02.01.02",
+    "description": "Aussenwand, Mauerwerk, Ziegel",
+    "sequence": 12,
+    "total_objects": 17,
+    "floors_distribution": {
+      "Geschoss 1": 5,
+      "EG00": 8,
+      "OG01": 4
+    },
+    "suggested_task_name": "Construction of Aussenwand, Mauerwerk, Ziegel",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "K0.02.01.01",
+    "description": "Aussenwand, Massivbau, Beton",
+    "sequence": 12,
+    "total_objects": 146,
+    "floors_distribution": {
+      "Geschoss 1": 12,
+      "UG01": 14,
+      "UZ01": 36,
+      "EG00": 52,
+      "OG01": 16,
+      "OG02": 1,
+      "OG03": 1,
+      "OG04": 1,
+      "OG06": 2,
+      "OG07": 2,
+      "OG08": 3,
+      "OG09": 6
+    },
+    "suggested_task_name": "Construction of Aussenwand, Massivbau, Beton",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.04.02",
+    "description": "Innen liegende Treppe, Rampe",
+    "sequence": 13,
+    "total_objects": 9,
+    "floors_distribution": {
+      "UZ01": 1,
+      "OG01": 1,
+      "OG02": 2,
+      "OG06": 5
+    },
+    "suggested_task_name": "Construction of Innen liegende Treppe, Rampe",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.04.03.02",
+    "description": "Zusammengebaut",
+    "sequence": 13,
+    "total_objects": 3,
+    "floors_distribution": {
+      "OG01": 2,
+      "OG09": 1
+    },
+    "suggested_task_name": "Construction of Zusammengebaut",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.04.06.01",
+    "description": "Massivbau",
+    "sequence": 14,
+    "total_objects": 4,
+    "floors_distribution": {
+      "UZ01": 4
+    },
+    "suggested_task_name": "Construction of Massivbau",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "K0.02.02.02",
+    "description": "Innenwand, Mauerwerk, Ziegel",
+    "sequence": 15,
+    "total_objects": 60,
+    "floors_distribution": {
+      "UG01": 23,
+      "UZ01": 6,
+      "EG00": 20,
+      "OG03": 2,
+      "OG04": 2,
+      "OG05": 3,
+      "OG07": 3
+    },
+    "suggested_task_name": "Construction of Innenwand, Mauerwerk, Ziegel",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "K0.02.02.04",
+    "description": "Innenwand, Gipskarton, Trockenbauwand",
+    "sequence": 16,
+    "total_objects": 420,
+    "floors_distribution": {
+      "UG01": 39,
+      "UZ01": 1,
+      "EG00": 17,
+      "OG01": 36,
+      "OG02": 32,
+      "OG03": 91,
+      "OG04": 35,
+      "OG05": 10,
+      "OG06": 36,
+      "OG07": 66,
+      "OG08": 57
+    },
+    "suggested_task_name": "Construction of Innenwand, Gipskarton, Trockenbauwand",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.05.04",
+    "description": "Other",
+    "sequence": 17,
+    "total_objects": 1,
+    "floors_distribution": {
+      "OKRB 065": 1
+    },
+    "suggested_task_name": "Construction of Other",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.05.02",
+    "description": "Maschinensockel, Einlage",
+    "sequence": 17,
+    "total_objects": 11,
+    "floors_distribution": {
+      "OKRB 065": 3,
+      "ZG-MITTE_OKRB": 8
+    },
+    "suggested_task_name": "Construction of Maschinensockel, Einlage",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.06.01",
+    "description": "Vorhangfassade / Pfosten-Riegel-System",
+    "sequence": 18,
+    "total_objects": 10400,
+    "floors_distribution": {
+      "EG00": 574,
+      "OG01": 1707,
+      "OG02": 1310,
+      "OG03": 1148,
+      "OG04": 1127,
+      "OG05": 1237,
+      "OG06": 1124,
+      "OG07": 1015,
+      "OG08": 855,
+      "OG09": 297
+    },
+    "suggested_task_name": "Construction of Vorhangfassade / Pfosten-Riegel-System",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.06.04",
+    "description": "Dämmung / Isolationsschichten",
+    "sequence": 18,
+    "total_objects": 35,
+    "floors_distribution": {
+      "UG01": 1,
+      "OG08": 29,
+      "OG09": 5
+    },
+    "suggested_task_name": "Construction of Dämmung / Isolationsschichten",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.06.02",
+    "description": "Fassadenbekleidung (Metall-/Holz-/Keramik-/Faserzementtafeln)",
+    "sequence": 19,
+    "total_objects": 1357,
+    "floors_distribution": {
+      "EG00": 104,
+      "OG01": 158,
+      "OG02": 161,
+      "OG03": 175,
+      "OG04": 119,
+      "OG05": 163,
+      "OG06": 176,
+      "OG07": 139,
+      "OG08": 94,
+      "OG09": 68
+    },
+    "suggested_task_name": "Construction of Fassadenbekleidung (Metall-/Holz-/Keramik-/Faserzementtafeln)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.04.04.01.02",
+    "description": "Träger",
+    "sequence": 20,
+    "total_objects": 149,
+    "floors_distribution": {
+      "OG01": 2,
+      "OG09": 147
+    },
+    "suggested_task_name": "Construction of Träger",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.04.04",
+    "description": "Dachkonstruktion",
+    "sequence": 20,
+    "total_objects": 19,
+    "floors_distribution": {
+      "OG09": 19
+    },
+    "suggested_task_name": "Construction of Dachkonstruktion",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.04.04.02",
+    "description": "Konstruktion geneigtes Dach",
+    "sequence": 20,
+    "total_objects": 8,
+    "floors_distribution": {
+      "OG09": 8
+    },
+    "suggested_task_name": "Construction of Konstruktion geneigtes Dach",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.06.10",
+    "description": "Diverse Fassadenbauteile",
+    "sequence": 24,
+    "total_objects": 75,
+    "floors_distribution": {
+      "OG03": 73,
+      "OG08": 2
+    },
+    "suggested_task_name": "Construction of Diverse Fassadenbauteile",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.07",
+    "description": "Diverse Konstruktionsbauteile",
+    "sequence": 25,
+    "total_objects": 701,
+    "floors_distribution": {
+      "UG01": 4,
+      "UZ01": 1,
+      "EG00": 69,
+      "OG01": 101,
+      "OG02": 67,
+      "OG03": 124,
+      "OG04": 62,
+      "OG05": 44,
+      "OG06": 8,
+      "OG07": 134,
+      "OG08": 81,
+      "OG09": 6
+    },
+    "suggested_task_name": "Construction of Diverse Konstruktionsbauteile",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "MACH.01",
+    "description": "Maschinensockel",
+    "sequence": 26,
+    "total_objects": 7,
+    "floors_distribution": {
+      "OKRB 065": 2,
+      "ZG-MITTE_OKRB": 5
+    },
+    "suggested_task_name": "Construction of Maschinensockel",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EL.01",
+    "description": "Leerrohr/Kabelschutzrohr",
+    "sequence": 27,
+    "total_objects": 163,
+    "floors_distribution": {
+      "UG01": 35,
+      "EG00": 4,
+      "OG01": 3,
+      "OG02": 3,
+      "OG03": 66,
+      "OG04": 3,
+      "OG05": 3,
+      "OG06": 3,
+      "OG07": 3,
+      "OG08": 28
+    },
+    "suggested_task_name": "Construction of Leerrohr/Kabelschutzrohr",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EL",
+    "description": "Elektrotechnik",
+    "sequence": 27,
+    "total_objects": 8,
+    "floors_distribution": {
+      "OG08": 8
+    },
+    "suggested_task_name": "Construction of Elektrotechnik",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EL.02",
+    "description": "Leerrohrzubehör (Bögen, T-Stücke)",
+    "sequence": 28,
+    "total_objects": 17,
+    "floors_distribution": {
+      "UKRD UG01": 3,
+      "OG03": 2,
+      "OG06": 12
+    },
+    "suggested_task_name": "Construction of Leerrohrzubehör (Bögen, T-Stücke)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EL.04",
+    "description": "Kabeltrasse",
+    "sequence": 29,
+    "total_objects": 1594,
+    "floors_distribution": {
+      "OG03": 238,
+      "UG01": 87,
+      "ZGUG": 241,
+      "EG00": 218,
+      "OG01": 104,
+      "OG02": 93,
+      "OG04": 91,
+      "OG05": 149,
+      "OG06": 94,
+      "OG07": 163,
+      "OG08": 34,
+      "OG09": 19
+    },
+    "suggested_task_name": "Construction of Kabeltrasse",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EL.06",
+    "description": "Kabeltrassenzubehör: T-Stücke",
+    "sequence": 30,
+    "total_objects": 417,
+    "floors_distribution": {
+      "UG01": 1,
+      "ZGUG": 3,
+      "EG00": 13,
+      "OG01": 95,
+      "OG02": 10,
+      "OG03": 33,
+      "OG04": 112,
+      "OG05": 10,
+      "OG06": 95,
+      "OG08": 1,
+      "OG07": 31
+    },
+    "suggested_task_name": "Construction of Kabeltrassenzubehör: T-Stücke",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EL.05",
+    "description": "Kabeltrassenzubehör: Bögen",
+    "sequence": 30,
+    "total_objects": 782,
+    "floors_distribution": {
+      "UG01": 70,
+      "ZGUG": 78,
+      "EG00": 36,
+      "OG01": 39,
+      "OG02": 137,
+      "OG03": 105,
+      "OG04": 35,
+      "OG05": 78,
+      "OG06": 42,
+      "OG07": 7,
+      "OG08": 39,
+      "OG09": 4
+    },
+    "suggested_task_name": "Construction of Kabeltrassenzubehör: Bögen",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EL.10",
+    "description": "Verteilerkasten (Schaltschranksystem)",
+    "sequence": 31,
+    "total_objects": 121,
+    "floors_distribution": {
+      "UG01": 27,
+      "ZGUG": 2,
+      "EG00": 3,
+      "OG01": 3,
+      "OG02": 7,
+      "OG03": 19,
+      "OG04": 9,
+      "OG05": 3,
+      "OG06": 7,
+      "OG08": 38,
+      "OG07": 3
+    },
+    "suggested_task_name": "Construction of Verteilerkasten (Schaltschranksystem)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ.06",
+    "description": "Heizfittings: Bögen",
+    "sequence": 32,
+    "total_objects": 2919,
+    "floors_distribution": {
+      "$UG01 UKD_3": 5,
+      "UG01": 323,
+      "OG03": 6,
+      "UG01/2-SÜD_OKRB": 5,
+      "OKRB 065": 249,
+      "ZG-MITTE_OKRB": 114,
+      "EG-MITTE_OKRB": 213,
+      "OG01_OKRB": 192,
+      "OG02_OKRB": 220,
+      "OG03_OKRB": 437,
+      "OG04_OKRB": 208,
+      "OG05_OKRB": 237,
+      "OG06_OKRB": 207,
+      "OG08": 32,
+      "OG07_OKRB": 203,
+      "OG09_OKRB": 77,
+      "OG08_OKRB": 142,
+      "OG09": 4
+    },
+    "suggested_task_name": "Construction of Heizfittings: Bögen",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ.02",
+    "description": "Wärmetauscher",
+    "sequence": 32,
+    "total_objects": 30,
+    "floors_distribution": {
+      "OKRB 065": 1,
+      "UG01": 5,
+      "OG01_OKRB": 24
+    },
+    "suggested_task_name": "Construction of Wärmetauscher",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ.09",
+    "description": "Ausdehnungsgefäß (Heizung)",
+    "sequence": 32,
+    "total_objects": 2,
+    "floors_distribution": {
+      "UG01": 2
+    },
+    "suggested_task_name": "Construction of Ausdehnungsgefäß (Heizung)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ",
+    "description": "Heizung",
+    "sequence": 32,
+    "total_objects": 9,
+    "floors_distribution": {
+      "OG01": 3,
+      "OG03": 3,
+      "OG08": 3
+    },
+    "suggested_task_name": "Construction of Heizung",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ.04",
+    "description": "Heizungsrohre (Vorlauf & Rücklauf)",
+    "sequence": 32,
+    "total_objects": 13173,
+    "floors_distribution": {
+      "UZ01": 1,
+      "EG": 64,
+      "OG03": 102,
+      "OG07": 69,
+      "OG08": 82,
+      "UG01/2-SÜD_OKRB": 12,
+      "UG01": 666,
+      "OKRB 065": 690,
+      "ZG-MITTE_OKRB": 227,
+      "EG-MITTE_OKRB": 1095,
+      "OG01_OKRB": 1306,
+      "OG03_OKRB": 1454,
+      "OG02_OKRB": 1304,
+      "OG04_OKRB": 1465,
+      "OG05_OKRB": 1303,
+      "OG06_OKRB": 1143,
+      "OG07_OKRB": 937,
+      "OG09_OKRB": 304,
+      "OG08_OKRB": 821,
+      "OG09": 4
+    },
+    "suggested_task_name": "Construction of Heizungsrohre (Vorlauf & Rücklauf)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ.05",
+    "description": "Rohrarmaturen (Heizungsinstallation)",
+    "sequence": 32,
+    "total_objects": 466,
+    "floors_distribution": {
+      "OG07": 2,
+      "UG01": 12,
+      "OKRB 065": 62,
+      "ZG-MITTE_OKRB": 7,
+      "EG-MITTE_OKRB": 25,
+      "OG01_OKRB": 25,
+      "OG02_OKRB": 59,
+      "OG03_OKRB": 95,
+      "OG04_OKRB": 61,
+      "OG05_OKRB": 26,
+      "OG06_OKRB": 40,
+      "OG08": 10,
+      "OG09_OKRB": 2,
+      "OG07_OKRB": 22,
+      "OG08_OKRB": 16
+    },
+    "suggested_task_name": "Construction of Rohrarmaturen (Heizungsinstallation)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ.07",
+    "description": "Heizfittings: T-Stück",
+    "sequence": 32,
+    "total_objects": 2063,
+    "floors_distribution": {
+      "UG01": 83,
+      "OG03": 2,
+      "OKRB 065": 48,
+      "EG-MITTE_OKRB": 161,
+      "OG01_OKRB": 189,
+      "OG02_OKRB": 236,
+      "OG03_OKRB": 274,
+      "OG04_OKRB": 211,
+      "OG05_OKRB": 233,
+      "OG06_OKRB": 208,
+      "OG07_OKRB": 239,
+      "OG09_OKRB": 4,
+      "OG08": 13,
+      "OG08_OKRB": 128
+    },
+    "suggested_task_name": "Construction of Heizfittings: T-Stück",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ.08",
+    "description": "Ventile (Heizsventile)",
+    "sequence": 32,
+    "total_objects": 1296,
+    "floors_distribution": {
+      "UG01": 20,
+      "OKRB 065": 10,
+      "EG-MITTE_OKRB": 88,
+      "OG01_OKRB": 156,
+      "OG02_OKRB": 170,
+      "OG03_OKRB": 157,
+      "OG04_OKRB": 83,
+      "OG05_OKRB": 159,
+      "OG06_OKRB": 148,
+      "OG07_OKRB": 176,
+      "OG08_OKRB": 128
+    },
+    "suggested_task_name": "Construction of Ventile (Heizsventile)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ.03",
+    "description": "Umwälzpumpe (Heizungspumpe)",
+    "sequence": 32,
+    "total_objects": 18,
+    "floors_distribution": {
+      "UG01": 9,
+      "OG04_OKRB": 1,
+      "OKRB 065": 8
+    },
+    "suggested_task_name": "Construction of Umwälzpumpe (Heizungspumpe)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KT.07",
+    "description": "Kältefittings: T-Stück",
+    "sequence": 33,
+    "total_objects": 108,
+    "floors_distribution": {
+      "EG-MITTE_OKRB": 4,
+      "UG01": 33,
+      "OKRB 065": 17,
+      "ZG-MITTE_OKRB": 10,
+      "OG01_OKRB": 15,
+      "OG02_OKRB": 2,
+      "OG03_OKRB": 2,
+      "OG04_OKRB": 9,
+      "OG05_OKRB": 5,
+      "OG06_OKRB": 8,
+      "OG08": 3
+    },
+    "suggested_task_name": "Construction of Kältefittings: T-Stück",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KT.01",
+    "description": "Kühler (Wasserkühler/Chiller)",
+    "sequence": 33,
+    "total_objects": 3,
+    "floors_distribution": {
+      "OG09": 3
+    },
+    "suggested_task_name": "Construction of Kühler (Wasserkühler/Chiller)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KT.04",
+    "description": "Kaltwasserrohre",
+    "sequence": 33,
+    "total_objects": 1001,
+    "floors_distribution": {
+      "OKRB 065": 276,
+      "EG-MITTE_OKRB": 51,
+      "OG01_OKRB": 39,
+      "OG07_OKRB": 3,
+      "OG08_OKRB": 20,
+      "OG08": 89,
+      "OG09_OKRB": 25,
+      "UG01": 194,
+      "ZG-MITTE_OKRB": 9,
+      "OG02_OKRB": 22,
+      "OG03_OKRB": 98,
+      "OG04_OKRB": 59,
+      "OG05_OKRB": 66,
+      "OG06_OKRB": 48
+    },
+    "suggested_task_name": "Construction of Kaltwasserrohre",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KT.06",
+    "description": "Kältefittings: Bögen",
+    "sequence": 33,
+    "total_objects": 351,
+    "floors_distribution": {
+      "OG03": 6,
+      "UG01": 106,
+      "OKRB 065": 105,
+      "EG-MITTE_OKRB": 25,
+      "OG08_OKRB": 23,
+      "OG08": 20,
+      "ZG-MITTE_OKRB": 10,
+      "OG01_OKRB": 4,
+      "OG03_OKRB": 18,
+      "OG04_OKRB": 7,
+      "OG05_OKRB": 5,
+      "OG06_OKRB": 6,
+      "OG09_OKRB": 16
+    },
+    "suggested_task_name": "Construction of Kältefittings: Bögen",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KT.05",
+    "description": "Rohrarmaturen (Kaltwassersystem)",
+    "sequence": 33,
+    "total_objects": 86,
+    "floors_distribution": {
+      "OG03": 1,
+      "UG01": 2,
+      "OG07_OKRB": 4,
+      "OKRB 065": 13,
+      "EG-MITTE_OKRB": 1,
+      "OG01_OKRB": 6,
+      "OG03_OKRB": 8,
+      "OG04_OKRB": 17,
+      "OG05_OKRB": 12,
+      "OG06_OKRB": 10,
+      "OG08": 4,
+      "OG09_OKRB": 7
+    },
+    "suggested_task_name": "Construction of Rohrarmaturen (Kaltwassersystem)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.02",
+    "description": "Ventilator (Lüftungsventilator)",
+    "sequence": 34,
+    "total_objects": 117,
+    "floors_distribution": {
+      "OKRB 065": 52,
+      "ZG-MITTE_OKRB": 6,
+      "EG-MITTE_OKRB": 10,
+      "OG01_OKRB": 7,
+      "OG03_OKRB": 23,
+      "OG08": 4,
+      "OG08_OKRB": 2,
+      "OG09": 4,
+      "UG01": 2,
+      "OG02_OKRB": 4,
+      "OG04_OKRB": 3
+    },
+    "suggested_task_name": "Construction of Ventilator (Lüftungsventilator)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.05",
+    "description": "Luftfittings: T-Stücke",
+    "sequence": 34,
+    "total_objects": 3860,
+    "floors_distribution": {
+      "UG01": 118,
+      "OKRB 065": 717,
+      "ZG-MITTE_OKRB": 4,
+      "EG-MITTE_OKRB": 375,
+      "OG08": 71,
+      "OG01_OKRB": 46,
+      "OG03_OKRB": 1860,
+      "OG02_OKRB": 82,
+      "OG04_OKRB": 100,
+      "OG05_OKRB": 96,
+      "OG06_OKRB": 106,
+      "OG07_OKRB": 94,
+      "OG08_OKRB": 67,
+      "OG09_OKRB": 13,
+      "OG09": 82,
+      "DA": 3
+    },
+    "suggested_task_name": "Construction of Luftfittings: T-Stücke",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.01",
+    "description": "Lüftungsgerät / AHU (Air Handling Unit)",
+    "sequence": 34,
+    "total_objects": 59,
+    "floors_distribution": {
+      "UG01_OKRB": 16,
+      "OKRB 065": 19,
+      "OG09": 12,
+      "ZG-MITTE_OKRB": 8,
+      "OG01": 4
+    },
+    "suggested_task_name": "Construction of Lüftungsgerät / AHU (Air Handling Unit)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.13",
+    "description": "Lüftungdämmung",
+    "sequence": 34,
+    "total_objects": 2990,
+    "floors_distribution": {
+      "$UG01 UKD_1": 3,
+      "OG07": 1,
+      "UG01": 84,
+      "UG01_OKRB": 1,
+      "OKRB 065": 759,
+      "ZG-MITTE_OKRB": 123,
+      "EG-MITTE_OKRB": 507,
+      "OG08": 156,
+      "OG01_OKRB": 152,
+      "OG02_OKRB": 180,
+      "OG03_OKRB": 190,
+      "OG04_OKRB": 188,
+      "OG05_OKRB": 124,
+      "OG06_OKRB": 206,
+      "OG07_OKRB": 114,
+      "OG08_OKRB": 19,
+      "OG09": 104,
+      "OG09_OKRB": 28
+    },
+    "suggested_task_name": "Construction of Lüftungdämmung",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF",
+    "description": "Lüftung",
+    "sequence": 34,
+    "total_objects": 9,
+    "floors_distribution": {
+      "OG03": 5,
+      "OG08": 4
+    },
+    "suggested_task_name": "Construction of Lüftung",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.03",
+    "description": "Luftkanal (gerades Segment)",
+    "sequence": 34,
+    "total_objects": 1176,
+    "floors_distribution": {
+      "UG01": 143,
+      "OKRB 065": 528,
+      "ZG-MITTE_OKRB": 1,
+      "EG-MITTE_OKRB": 113,
+      "OG01_OKRB": 60,
+      "OG02_OKRB": 42,
+      "OG03_OKRB": 189,
+      "OG04_OKRB": 4,
+      "OG05_OKRB": 13,
+      "OG08": 33,
+      "OG06_OKRB": 13,
+      "OG08_OKRB": 17,
+      "OG03": 2,
+      "OG09_OKRB": 3,
+      "OG09": 2
+    },
+    "suggested_task_name": "Construction of Luftkanal (gerades Segment)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.10",
+    "description": "VAV-Endgerät (Variable Air Volume Box)",
+    "sequence": 34,
+    "total_objects": 76,
+    "floors_distribution": {
+      "OKRB 065": 10,
+      "OG03_OKRB": 64,
+      "OG09": 2
+    },
+    "suggested_task_name": "Construction of VAV-Endgerät (Variable Air Volume Box)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.06",
+    "description": "Drosselklappen (Luftstromdrossler)",
+    "sequence": 34,
+    "total_objects": 325,
+    "floors_distribution": {
+      "UG01": 31,
+      "OKRB 065": 82,
+      "EG-MITTE_OKRB": 18,
+      "OG01_OKRB": 18,
+      "OG03_OKRB": 89,
+      "OG04_OKRB": 16,
+      "OG05_OKRB": 11,
+      "OG08": 19,
+      "OG07_OKRB": 8,
+      "OG09": 12,
+      "OG02_OKRB": 8,
+      "OG06_OKRB": 8
+    },
+    "suggested_task_name": "Construction of Drosselklappen (Luftstromdrossler)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.07",
+    "description": "Luftschalldämpfer (Akustikabsorber)",
+    "sequence": 34,
+    "total_objects": 108,
+    "floors_distribution": {
+      "OKRB 065": 21,
+      "EG-MITTE_OKRB": 3,
+      "OG08": 7,
+      "OG03_OKRB": 67,
+      "OG08_OKRB": 2,
+      "OG09": 8
+    },
+    "suggested_task_name": "Construction of Luftschalldämpfer (Akustikabsorber)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.12",
+    "description": "Befeuchter",
+    "sequence": 34,
+    "total_objects": 63,
+    "floors_distribution": {
+      "UG01_OKRB": 16,
+      "OKRB 065": 47
+    },
+    "suggested_task_name": "Construction of Befeuchter",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.04",
+    "description": "Luftfittings: Bögen",
+    "sequence": 34,
+    "total_objects": 3931,
+    "floors_distribution": {
+      "UG01": 149,
+      "OKRB 065": 843,
+      "ZG-MITTE_OKRB": 1,
+      "EG-MITTE_OKRB": 241,
+      "OG01_OKRB": 84,
+      "OG02_OKRB": 76,
+      "OG03_OKRB": 2005,
+      "OG04_OKRB": 101,
+      "OG05_OKRB": 41,
+      "OG06_OKRB": 134,
+      "OG08": 124,
+      "OG07_OKRB": 32,
+      "OG09_OKRB": 3,
+      "OG08_OKRB": 29,
+      "DA": 1,
+      "OG09": 32
+    },
+    "suggested_task_name": "Construction of Luftfittings: Bögen",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPR.04",
+    "description": "Sprinklerzubehör: T-Stücke",
+    "sequence": 35,
+    "total_objects": 320,
+    "floors_distribution": {
+      "$UG01 UKD_3": 3,
+      "$UG01 UKD_1": 1,
+      "EG": 25,
+      "OG02": 95,
+      "OG03": 26,
+      "$UG01 UKD_2": 2,
+      "OG07": 85,
+      "OG08": 73,
+      "UG01": 4
+    },
+    "suggested_task_name": "Construction of Sprinklerzubehör: T-Stücke",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPR.08",
+    "description": "Feuerwehranschluss",
+    "sequence": 35,
+    "total_objects": 4,
+    "floors_distribution": {
+      "OG03": 2,
+      "OG07": 2
+    },
+    "suggested_task_name": "Construction of Feuerwehranschluss",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPR.03",
+    "description": "Sprinklerzubehör: Bögen",
+    "sequence": 35,
+    "total_objects": 338,
+    "floors_distribution": {
+      "$UG01 UKD_3": 17,
+      "$UG01 UKD_1": 1,
+      "EG": 33,
+      "OG02": 109,
+      "OG03": 25,
+      "OG07": 93,
+      "OG08": 24,
+      "OG09": 1,
+      "UG01": 14,
+      "$UG01 UKD_2": 6,
+      "UZ01": 2
+    },
+    "suggested_task_name": "Construction of Sprinklerzubehör: Bögen",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPR.02",
+    "description": "Sprinklerrohr",
+    "sequence": 35,
+    "total_objects": 1109,
+    "floors_distribution": {
+      "$UG01 UKD_3": 66,
+      "$UG01 UKD_1": 1,
+      "EG": 334,
+      "OG02": 256,
+      "OG03": 104,
+      "OG07": 269,
+      "OG08": 25,
+      "UG01": 37,
+      "$UG01 UKD_2": 9,
+      "UZ01": 2
+    },
+    "suggested_task_name": "Construction of Sprinklerrohr",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPR.05",
+    "description": "Alarm-/Steuerarmatur",
+    "sequence": 35,
+    "total_objects": 57,
+    "floors_distribution": {
+      "$UG01 UKD_3": 18,
+      "OKRB 065": 23,
+      "OG02_OKRB": 8,
+      "OG06_OKRB": 8
+    },
+    "suggested_task_name": "Construction of Alarm-/Steuerarmatur",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.02",
+    "description": "Rohrarmaturen (Reduzierungen, Kupplungen)",
+    "sequence": 36,
+    "total_objects": 424,
+    "floors_distribution": {
+      "$UG01 UKD_3": 2,
+      "EG": 18,
+      "UG01": 13,
+      "$UG01 UKD_2": 1,
+      "UZ01": 1,
+      "OG03": 181,
+      "OG01": 10,
+      "OG02": 6,
+      "OG04": 1,
+      "OG05": 1,
+      "OG07": 7,
+      "OG08": 151,
+      "OG09": 6
+    },
+    "suggested_task_name": "Construction of Rohrarmaturen (Reduzierungen, Kupplungen)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.03",
+    "description": "Rohrarmaturen: Bögen",
+    "sequence": 36,
+    "total_objects": 1342,
+    "floors_distribution": {
+      "$UG01 UKD_3": 11,
+      "EG": 70,
+      "UG01": 178,
+      "$UG01 UKD_2": 1,
+      "UZ01": 12,
+      "OG03": 638,
+      "OG01": 32,
+      "OG02": 41,
+      "OG06": 14,
+      "OG04": 10,
+      "OG05": 1,
+      "OG07": 132,
+      "OG08": 139,
+      "OG09": 25
+    },
+    "suggested_task_name": "Construction of Rohrarmaturen: Bögen",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.05",
+    "description": "Ventile (Absperr-, Rückfluss-, Druckminderventile etc.)",
+    "sequence": 36,
+    "total_objects": 186,
+    "floors_distribution": {
+      "UG01": 31,
+      "OG03": 101,
+      "OG07": 8,
+      "EG": 2,
+      "OG08": 44
+    },
+    "suggested_task_name": "Construction of Ventile (Absperr-, Rückfluss-, Druckminderventile etc.)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.07",
+    "description": "Wassertank (Speicher-/Ausdehnungsbehälter)",
+    "sequence": 36,
+    "total_objects": 10,
+    "floors_distribution": {
+      "ZG-MITTE_OKRB": 3,
+      "EG-MITTE_OKRB": 7
+    },
+    "suggested_task_name": "Construction of Wassertank (Speicher-/Ausdehnungsbehälter)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN",
+    "description": "Sanitär",
+    "sequence": 36,
+    "total_objects": 25,
+    "floors_distribution": {
+      "OG03": 14,
+      "EG00": 5,
+      "OG08": 6
+    },
+    "suggested_task_name": "Construction of Sanitär",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.04",
+    "description": "Rohrarmaturen: T-Stücke",
+    "sequence": 36,
+    "total_objects": 662,
+    "floors_distribution": {
+      "EG": 47,
+      "UG01": 65,
+      "$UG01 UKD_2": 2,
+      "UZ01": 2,
+      "$UG01 UKD_3": 1,
+      "OG03": 285,
+      "OG01": 13,
+      "OG02": 21,
+      "OG06": 6,
+      "OG04": 1,
+      "OG05": 4,
+      "OG07": 38,
+      "OG08": 158,
+      "OG09": 7
+    },
+    "suggested_task_name": "Construction of Rohrarmaturen: T-Stücke",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.01",
+    "description": "Wasserrohr (gerades Segment)",
+    "sequence": 36,
+    "total_objects": 2051,
+    "floors_distribution": {
+      "EG": 548,
+      "UG01": 262,
+      "$UG01 UKD_2": 2,
+      "UZ01": 3,
+      "$UG01 UKD_3": 58,
+      "OG01": 96,
+      "OG02": 89,
+      "OG03": 826,
+      "OG05": 8,
+      "OG06": 31,
+      "OG04": 2,
+      "OG07": 83,
+      "OG08": 6,
+      "OG09": 19
+    },
+    "suggested_task_name": "Construction of Wasserrohr (gerades Segment)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "WASTE.01",
+    "description": "Fäkalienhebeanlage",
+    "sequence": 37,
+    "total_objects": 387,
+    "floors_distribution": {
+      "UG01": 159,
+      "$UG01 UKD_2": 29,
+      "UZ01": 10,
+      "$UG01 UKD_3": 3,
+      "EG": 48,
+      "OG02": 32,
+      "OG03": 28,
+      "OG04": 1,
+      "OG07": 77
+    },
+    "suggested_task_name": "Construction of Fäkalienhebeanlage",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "WATER.03",
+    "description": "Frischwasserstation",
+    "sequence": 37,
+    "total_objects": 3,
+    "floors_distribution": {
+      "UG01": 3
+    },
+    "suggested_task_name": "Construction of Frischwasserstation",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "WASTE.02",
+    "description": "Abwasserbehandlungsanlage",
+    "sequence": 37,
+    "total_objects": 25,
+    "floors_distribution": {
+      "$UG01 UKD_2": 8,
+      "UZ01": 1,
+      "OG08": 16
+    },
+    "suggested_task_name": "Construction of Abwasserbehandlungsanlage",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "WASTE.03",
+    "description": "Mechanische Reinigung",
+    "sequence": 37,
+    "total_objects": 147,
+    "floors_distribution": {
+      "$UG01 UKD_3": 2,
+      "UG01": 72,
+      "$UG01 UKD_2": 22,
+      "EG": 7,
+      "OG01": 12,
+      "OG03": 32
+    },
+    "suggested_task_name": "Construction of Mechanische Reinigung",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "WATER.04",
+    "description": "Trinkwasserstation",
+    "sequence": 37,
+    "total_objects": 74,
+    "floors_distribution": {
+      "$UG01 UKD_3": 13,
+      "UG01": 4,
+      "EG": 17,
+      "OG03": 23,
+      "OG07": 14
+    },
+    "suggested_task_name": "Construction of Trinkwasserstation",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "WATER.05",
+    "description": "Druckerhöhungsanlage",
+    "sequence": 37,
+    "total_objects": 1,
+    "floors_distribution": {
+      "OG07": 1
+    },
+    "suggested_task_name": "Construction of Druckerhöhungsanlage",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "WATER.02",
+    "description": "Osmoseanlage",
+    "sequence": 37,
+    "total_objects": 3,
+    "floors_distribution": {
+      "UG01": 3
+    },
+    "suggested_task_name": "Construction of Osmoseanlage",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "WASTE.04",
+    "description": "Biologische Reinigung",
+    "sequence": 37,
+    "total_objects": 29,
+    "floors_distribution": {
+      "UG01": 20,
+      "EG": 3,
+      "OG01": 6
+    },
+    "suggested_task_name": "Construction of Biologische Reinigung",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "WATER.01",
+    "description": "Enthärtungsanlage",
+    "sequence": 37,
+    "total_objects": 71,
+    "floors_distribution": {
+      "EG": 30,
+      "UG01": 12,
+      "UZ01": 8,
+      "$UG01 UKD_3": 2,
+      "$UG01 UKD_2": 3
+    },
+    "suggested_task_name": "Construction of Enthärtungsanlage",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "GAS",
+    "description": "Gastechnik",
+    "sequence": 38,
+    "total_objects": 1,
+    "floors_distribution": {
+      "OG03": 1
+    },
+    "suggested_task_name": "Construction of Gastechnik",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "GAS.03",
+    "description": "Gasarmatur (Ventil)",
+    "sequence": 38,
+    "total_objects": 11,
+    "floors_distribution": {
+      "$UG01 UKD_2": 11
+    },
+    "suggested_task_name": "Construction of Gasarmatur (Ventil)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "GAS.05",
+    "description": "Gaspumpe/Verdichter",
+    "sequence": 38,
+    "total_objects": 20,
+    "floors_distribution": {
+      "$UG01 UKD_2": 8,
+      "$UG01 UKD_3": 12
+    },
+    "suggested_task_name": "Construction of Gaspumpe/Verdichter",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "GAS.04",
+    "description": "Gasmessgerät (Zähler)",
+    "sequence": 38,
+    "total_objects": 2,
+    "floors_distribution": {
+      "$UG01 UKD_2": 2
+    },
+    "suggested_task_name": "Construction of Gasmessgerät (Zähler)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "GAS.01",
+    "description": "Gasrohr (Hauptleitung)",
+    "sequence": 38,
+    "total_objects": 46,
+    "floors_distribution": {
+      "$UG01 UKD_2": 28,
+      "UZ01": 1,
+      "OG03": 15
+    },
+    "suggested_task_name": "Construction of Gasrohr (Hauptleitung)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPEC.01",
+    "description": "Druckluftleitung",
+    "sequence": 39,
+    "total_objects": 136,
+    "floors_distribution": {
+      "$UG01 UKD_3": 6,
+      "EG": 36,
+      "OG03": 86,
+      "OG07": 3
+    },
+    "suggested_task_name": "Construction of Druckluftleitung",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPEC.07",
+    "description": "Dämmung",
+    "sequence": 39,
+    "total_objects": 6939,
+    "floors_distribution": {
+      "EG": 171,
+      "UG01": 957,
+      "$UG01 UKD_2": 23,
+      "UZ01": 1,
+      "$UG01 UKD_3": 229,
+      "OG01": 108,
+      "OG02": 71,
+      "OG03": 481,
+      "OG05": 2,
+      "OG06": 39,
+      "OG04": 2,
+      "OG07": 274,
+      "OG08": 84,
+      "OG09": 11,
+      "OG02_OKRB": 273,
+      "OG06_OKRB": 505,
+      "OKRB 065": 422,
+      "OG01_OKRB": 255,
+      "OG03_OKRB": 1218,
+      "OG09_OKRB": 46,
+      "OG08_OKRB": 250,
+      "EG-MITTE_OKRB": 223,
+      "ZG-MITTE_OKRB": 97,
+      "OG05_OKRB": 445,
+      "OG07_OKRB": 617,
+      "OG04_OKRB": 85
+    },
+    "suggested_task_name": "Construction of Dämmung",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPEC.05",
+    "description": "Druckluftkompressor",
+    "sequence": 39,
+    "total_objects": 1,
+    "floors_distribution": {
+      "$UG01 UKD_3": 1
+    },
+    "suggested_task_name": "Construction of Druckluftkompressor",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPEC.03",
+    "description": "Medgasentnahmestelle",
+    "sequence": 39,
+    "total_objects": 1,
+    "floors_distribution": {
+      "OG07": 1
+    },
+    "suggested_task_name": "Construction of Medgasentnahmestelle",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HEAT.04",
+    "description": "Bodenheizungsverteiler",
+    "sequence": 40,
+    "total_objects": 131,
+    "floors_distribution": {
+      "OKRB 065": 60,
+      "ZG-MITTE_OKRB": 22,
+      "OG04_OKRB": 49
+    },
+    "suggested_task_name": "Construction of Bodenheizungsverteiler",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HEAT.02",
+    "description": "Wärmespeicher",
+    "sequence": 40,
+    "total_objects": 379,
+    "floors_distribution": {
+      "UG01": 5,
+      "OG01_OKRB": 46,
+      "OG03_OKRB": 25,
+      "OG04_OKRB": 46,
+      "OG05_OKRB": 92,
+      "OG06_OKRB": 50,
+      "OG07_OKRB": 69,
+      "OG02_OKRB": 46
+    },
+    "suggested_task_name": "Construction of Wärmespeicher",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "COOL.02",
+    "description": "Kältekühldecke",
+    "sequence": 41,
+    "total_objects": 3,
+    "floors_distribution": {
+      "OG09": 3
+    },
+    "suggested_task_name": "Construction of Kältekühldecke",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "AUTO.05",
+    "description": "Schaltgerätekombination (MSR-Schrank)",
+    "sequence": 42,
+    "total_objects": 19,
+    "floors_distribution": {
+      "UG01": 7,
+      "EG00": 2,
+      "OG01": 2,
+      "OG02": 2,
+      "OG05": 2,
+      "OG06": 2,
+      "OG07": 2
+    },
+    "suggested_task_name": "Construction of Schaltgerätekombination (MSR-Schrank)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.12",
+    "description": "Bodenablauf (Ablauföffnung)",
+    "sequence": 42,
+    "total_objects": 27,
+    "floors_distribution": {
+      "UG01": 19,
+      "OG09": 7,
+      "OG03": 1
+    },
+    "suggested_task_name": "Construction of Bodenablauf (Ablauföffnung)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SPR.01",
+    "description": "Sprinklerkopf",
+    "sequence": 42,
+    "total_objects": 5,
+    "floors_distribution": {
+      "OG07": 1,
+      "UG01": 2,
+      "EG": 2
+    },
+    "suggested_task_name": "Construction of Sprinklerkopf",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "LF.09",
+    "description": "Luftauslass (Diffusor/Grill)",
+    "sequence": 42,
+    "total_objects": 292,
+    "floors_distribution": {
+      "UG01": 6,
+      "ZG-MITTE_OKRB": 1,
+      "OKRB 065": 20,
+      "EG-MITTE_OKRB": 36,
+      "OG01_OKRB": 2,
+      "OG02_OKRB": 4,
+      "OG03_OKRB": 167,
+      "OG04_OKRB": 4,
+      "OG05_OKRB": 10,
+      "OG06_OKRB": 2,
+      "OG08_OKRB": 24,
+      "OG09_OKRB": 14,
+      "OG03": 2
+    },
+    "suggested_task_name": "Construction of Luftauslass (Diffusor/Grill)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "HZ.10",
+    "description": "Heizkörper / Konvektoren",
+    "sequence": 43,
+    "total_objects": 246,
+    "floors_distribution": {
+      "EG-MITTE_OKRB": 23,
+      "OG03_OKRB": 28,
+      "OG07_OKRB": 23,
+      "OG09_OKRB": 84,
+      "OG04_OKRB": 46,
+      "OG06_OKRB": 42
+    },
+    "suggested_task_name": "Construction of Heizkörper / Konvektoren",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "TRANS.02",
+    "description": "Aufzugschacht",
+    "sequence": 43,
+    "total_objects": 9,
+    "floors_distribution": {
+      "OG01": 5,
+      "OG08": 4
+    },
+    "suggested_task_name": "Construction of Aufzugschacht",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "TRANS",
+    "description": "Transportanlagen",
+    "sequence": 43,
+    "total_objects": 3,
+    "floors_distribution": {
+      "OG03": 3
+    },
+    "suggested_task_name": "Construction of Transportanlagen",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KT.10",
+    "description": "FanCoil-Gerät (Kühlung)",
+    "sequence": 43,
+    "total_objects": 28,
+    "floors_distribution": {
+      "OG02_OKRB": 28
+    },
+    "suggested_task_name": "Construction of FanCoil-Gerät (Kühlung)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.09",
+    "description": "Waschtisch (Waschbecken)",
+    "sequence": 43,
+    "total_objects": 40,
+    "floors_distribution": {
+      "OG03": 40
+    },
+    "suggested_task_name": "Construction of Waschtisch (Waschbecken)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.10",
+    "description": "Toilette (WC/Water Closet)",
+    "sequence": 43,
+    "total_objects": 5,
+    "floors_distribution": {
+      "EG00": 5
+    },
+    "suggested_task_name": "Construction of Toilette (WC/Water Closet)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "TRANS.01",
+    "description": "Aufzugkabine",
+    "sequence": 43,
+    "total_objects": 53,
+    "floors_distribution": {
+      "UG01": 4,
+      "UZ01": 5,
+      "EG00": 5,
+      "OG01": 5,
+      "OG02": 5,
+      "OG03": 5,
+      "OG04": 5,
+      "OG05": 5,
+      "OG06": 5,
+      "OG07": 5,
+      "OG08": 4
+    },
+    "suggested_task_name": "Construction of Aufzugkabine",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SN.11",
+    "description": "Urinal",
+    "sequence": 43,
+    "total_objects": 2,
+    "floors_distribution": {
+      "EG00": 2
+    },
+    "suggested_task_name": "Construction of Urinal",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EL.07",
+    "description": "Beleuchtungskörper (Leuchte)",
+    "sequence": 44,
+    "total_objects": 180,
+    "floors_distribution": {
+      "Geschoss 1": 16,
+      "OG03": 30,
+      "OG09": 134
+    },
+    "suggested_task_name": "Construction of Beleuchtungskörper (Leuchte)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SEC.05",
+    "description": "Sicherheitszentrale (Alarmzentrale)",
+    "sequence": 44,
+    "total_objects": 8,
+    "floors_distribution": {
+      "EG00": 1,
+      "OG01": 1,
+      "OG02": 1,
+      "OG03": 1,
+      "OG04": 1,
+      "OG05": 1,
+      "OG06": 1,
+      "OG07": 1
+    },
+    "suggested_task_name": "Construction of Sicherheitszentrale (Alarmzentrale)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "SEC.01",
+    "description": "Einbruchmelder (PIR-Sensor)",
+    "sequence": 44,
+    "total_objects": 1,
+    "floors_distribution": {
+      "UG01": 1
+    },
+    "suggested_task_name": "Construction of Einbruchmelder (PIR-Sensor)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EQUIP.02",
+    "description": "Haushaltsgerät (Küche)",
+    "sequence": 45,
+    "total_objects": 29,
+    "floors_distribution": {
+      "OG03": 18,
+      "EG00": 11
+    },
+    "suggested_task_name": "Construction of Haushaltsgerät (Küche)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EQUIP.06",
+    "description": "Netzwerkgerät (IT-Equipment)",
+    "sequence": 45,
+    "total_objects": 16,
+    "floors_distribution": {
+      "EG00": 4,
+      "OG01": 4,
+      "OG05": 4,
+      "OG07": 4
+    },
+    "suggested_task_name": "Construction of Netzwerkgerät (IT-Equipment)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EQUIP.03",
+    "description": "Industriemaschine",
+    "sequence": 45,
+    "total_objects": 31,
+    "floors_distribution": {
+      "OG03": 27,
+      "OG08": 4
+    },
+    "suggested_task_name": "Construction of Industriemaschine",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.06.06",
+    "description": "Sonnenschutz (Raffstores, Lamellen, Jalousien)",
+    "sequence": 45,
+    "total_objects": 1190,
+    "floors_distribution": {
+      "UG01": 5,
+      "OG01": 194,
+      "OG02": 144,
+      "OG03": 214,
+      "OG04": 144,
+      "OG05": 143,
+      "OG06": 144,
+      "OG07": 144,
+      "OG08": 58
+    },
+    "suggested_task_name": "Construction of Sonnenschutz (Raffstores, Lamellen, Jalousien)",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "EQUIP",
+    "description": "Elektrogeräte/Ausrüstung",
+    "sequence": 45,
+    "total_objects": 343,
+    "floors_distribution": {
+      "OG03": 227,
+      "EG00": 7,
+      "OG09": 109
+    },
+    "suggested_task_name": "Construction of Elektrogeräte/Ausrüstung",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "UNKNOWN",
+    "description": "UNKNOWN",
+    "sequence": 999,
+    "total_objects": 1851,
+    "floors_distribution": {
+      "$UG01 UKD_3": 8,
+      "$UG01 UKD_1": 2,
+      "UG01": 175,
+      "UZ01": 88,
+      "EG-MITTE_OKRB": 119,
+      "ZG-MITTE_OKRB": 41,
+      "OG03_OKRB": 159,
+      "OG09_OKRB": 33,
+      "OG08": 52,
+      "OG08_OKRB": 128,
+      "UG01/2-SÜD_OKRB": 5,
+      "OG01_OKRB": 49,
+      "OG02_OKRB": 98,
+      "OG04_OKRB": 50,
+      "OG06_OKRB": 97,
+      "OG07_OKRB": 106,
+      "EG00": 43,
+      "OG01": 40,
+      "OG02": 104,
+      "OG03": 188,
+      "OG04": 51,
+      "OG05": 82,
+      "OG06": 89,
+      "OG07": 35
+    },
+    "suggested_task_name": "Construction of UNKNOWN",
+    "can_create_schedule_task": true
+  },
+  {
+    "object_code": "KO.04.04.02.03",
+    "description": "KO.04.04.02.03",
+    "sequence": 999,
+    "total_objects": 2,
+    "floors_distribution": {
+      "OG03": 2
+    },
+    "suggested_task_name": "Construction of KO.04.04.02.03",
+    "can_create_schedule_task": true
+  }
+]

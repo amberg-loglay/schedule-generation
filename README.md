@@ -1,107 +1,124 @@
 # Construction Schedule Planner
 
-A modern web interface for generating and visualizing construction project schedules. This tool combines BIM-based scheduling with traditional construction phase planning to create comprehensive project timelines.
+A Next.js application that combines BIM-based scheduling with construction phase planning.
 
 ## Features
 
-- Interactive UI for configuring construction phases:
-  - Site Establishment
-  - Demolition
-  - Excavation
-  - Structure
-  - Superstructure
-  - Facade
-  - Fitout
-- Integration with BIM object schedules
-- Dynamic Gantt chart visualization
-- Task dependencies and relationships
-- Phase overlap configuration
-- Resource-based duration calculations
+### 1. Construction Phases Planner
+- Traditional construction phase planning
+- Configurable phases: site establishment, demolition, excavation, substructure, structure, superstructure, facade, and fitout
+- Interactive parameter configuration
+- Gantt chart visualization
 
-## Prerequisites
+### 2. BIM Objects & Tasks Planner ✨ **NEW**
+- **Automatic data loading**: BIM data, schedule mappings, and object classifications load automatically
+- **Interactive task creation**: Select from potential tasks based on unmapped BIM objects
+- **Volume data integration**: Upload Excel files for enhanced duration calculations
+- **Sequence-based scheduling**: Tasks are ordered by construction sequence
+- **Gantt chart generation**: Visual timeline of selected tasks
 
-- Node.js 14.x or higher
-- Python 3.7 or higher
-- BIM data processing scripts (create_schedule_from_objects.py)
-- Construction schedule generator (create_construction_schedule.py)
+## Getting Started
 
-## Setup
+### Prerequisites
+- Node.js 18+
+- Python 3.8+ (for backend processing)
+- Required Python packages: `pandas`, `openpyxl`
 
-1. Clone the repository
-2. Navigate to the project directory
-3. Run the setup script:
+### Installation
+
+1. **Install dependencies**:
    ```bash
-   ./setup.sh
+   npm install
    ```
-   This will:
-   - Install Node.js dependencies
-   - Create necessary configuration files
-   - Set up the development environment
 
-4. Start the development server:
+2. **Build the application**:
+   ```bash
+   npm run build
+   ```
+
+3. **Start the application**:
+   ```bash
+   npm start
+   ```
+   
+   Or for development:
    ```bash
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
-
 ## Usage
 
-1. Configure Project Details:
-   - Set project start date
-   - Select building type
-   - Enable/disable construction phases
+### BIM Objects & Tasks Workflow
 
-2. For each enabled phase, configure:
-   - Duration parameters
-   - Resource requirements
-   - Dependencies and overlaps
-   - Phase-specific settings
+1. **Open the app** - System data loads automatically
+2. **Check status** - Verify that BIM object data is loaded (mapped objects, unmapped objects, potential tasks)
+3. **Upload volume data** (optional) - Excel file with object volumes for better duration estimates
+4. **Click "Analyze Data"** - System processes unmapped objects and shows potential tasks
+5. **Select tasks** - Choose which tasks to include in your schedule
+6. **Generate schedule** - Click to create Gantt chart visualization
 
-3. Click "Generate Schedule" to:
-   - Create the construction schedule
-   - Process BIM object data
-   - Combine both schedules
-   - Generate the Gantt chart visualization
+### File Structure
 
-## Integration
+The app automatically loads these system files from the `public/` directory:
+- `label_schedule.json` - Task name mappings
+- `schedule_to_object_mapping.json` - Object-to-task mappings  
+- `label_object_sequenced.json` - Construction sequence data
+- `mapped_objects_simple.json` - Objects already used in schedule
+- `unmapped_objects_simple.json` - Available objects for new tasks
+- `unmapped_labels_for_schedule.json` - Potential task templates
 
-The schedule planner can be integrated into existing sites as a new page:
+### Volume Data Format
 
-1. Copy the components:
-   - `SchedulePlanner.tsx`
-   - `GanttChart.tsx`
-   - `types/schedule.ts`
+Upload Excel files with these columns:
+- `ObjectCode`/`Code`/`Label` - BIM object code
+- `Volume`/`Volumen` - Object volume in m³
+- `Area`/`Fläche` - Object area in m²
+- `Count`/`Anzahl` - Object count
 
-2. Add the API endpoint:
-   - `pages/api/generate-schedule.ts`
+## API Endpoints
 
-3. Install dependencies:
-   ```json
-   {
-     "@emotion/react": "^11.11.0",
-     "@emotion/styled": "^11.11.0",
-     "@mui/material": "^5.13.0"
-   }
-   ```
+- `POST /api/generate-schedule` - Generates construction phase schedules
+- `POST /api/upload-volume-data` - Processes Excel volume data files
 
-4. Import and use the SchedulePlanner component:
-   ```tsx
-   import { SchedulePlanner } from './components/SchedulePlanner';
+## Development
 
-   export default function YourPage() {
-     return <SchedulePlanner />;
-   }
-   ```
+### Project Structure
+```
+src/
+├── components/
+│   ├── SchedulePlanner.tsx      # Construction phases planner
+│   ├── BIMSchedulePlanner.tsx   # BIM objects & tasks planner
+│   └── DHtmlxGanttChart.tsx     # Gantt chart visualization
+├── pages/
+│   ├── index.tsx                # Main app with tabs
+│   └── api/                     # API endpoints
+└── types/
+    └── schedule.ts              # TypeScript interfaces
+```
 
-## Contributing
+### Key Components
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+- **BIMSchedulePlanner**: Main component for BIM-based scheduling
+- **Task Analysis**: Processes unmapped objects into potential tasks
+- **Interactive Selection**: Checkbox interface for task selection
+- **Schedule Generation**: Creates timeline based on construction sequence
+- **Gantt Visualization**: DHtmlx Gantt chart integration
+
+## Troubleshooting
+
+### Common Issues
+
+1. **"System data not loaded"**: Wait for automatic loading or check console for errors
+2. **"No unmapped labels"**: Ensure `unmapped_labels_for_schedule.json` exists in public/
+3. **Excel upload fails**: Check file format and column names
+4. **Gantt chart not showing**: Ensure tasks are selected and schedule is generated
+
+### File Dependencies
+
+Make sure these files exist in `public/`:
+- All `.json` reference files
+- `Biel_general.png` (for dashboard)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is private and proprietary. 

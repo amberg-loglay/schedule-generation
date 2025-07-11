@@ -1,0 +1,1781 @@
+{
+  "KO": {
+    "description": "Konstruktion, Gebäude",
+    "sequence": 10,
+    "depends_on": []
+  },
+  "K0.00": {
+    "description": "Rohbaukonstruktion",
+    "sequence": 5,
+    "depends_on": []
+  },
+  "K0.00.01": {
+    "description": "Rohbaukonstruktion, unterirdisch erdverbunden",
+    "sequence": 1,
+    "depends_on": []
+  },
+  "K0.00.01.01": {
+    "description": "Rohbaukonstruktion, unterirdisch erdverbunden, Betonplatte",
+    "sequence": 1,
+    "depends_on": []
+  },
+  "K0.00.01.02": {
+    "description": "Rohbaukonstruktion, unterirdisch erdverbunden, Bohrpfähle, Pfähle",
+    "sequence": 1,
+    "depends_on": []
+  },
+  "K0.00.01.03": {
+    "description": "Rohbaukonstruktion, unterirdisch erdverbunden, Stützen",
+    "sequence": 1,
+    "depends_on": [
+      "K0.00.01.01"
+    ]
+  },
+  "K0.00.01.04": {
+    "description": "Rohbaukonstruktion, unterirdisch erdverbunden, Aussenwände",
+    "sequence": 1,
+    "depends_on": [
+      "K0.00.01.01"
+    ]
+  },
+  "K0.00.02": {
+    "description": "Rohbaukonstruktion, oberirdisch nicht erdverbunden, Betonplatte",
+    "sequence": 10,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "K0.00.02.01": {
+    "description": "Rohbaukonstruktion, oberirdisch nicht erdverbunden, Pfähle",
+    "sequence": 10,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "K0.00.02.02": {
+    "description": "Rohbaukonstruktion, oberirdisch nicht erdverbunden, Stützen",
+    "sequence": 10,
+    "depends_on": [
+      "K0.00.02"
+    ]
+  },
+  "K0.00.02.03": {
+    "description": "Rohbaukonstruktion, oberirdisch nicht erdverbunden, Aussenwände",
+    "sequence": 12,
+    "depends_on": [
+      "K0.00.02.02"
+    ]
+  },
+  "KO.01": {
+    "description": "Bodenplatte, Fundament",
+    "sequence": 2,
+    "depends_on": []
+  },
+  "KO.01.01": {
+    "description": "Unterbau Fundament, Bodenplatte",
+    "sequence": 1,
+    "depends_on": []
+  },
+  "KO.01.01.01": {
+    "description": "Sauberkeitsschicht, Splitbett",
+    "sequence": 1,
+    "depends_on": []
+  },
+  "KO.01.01.02": {
+    "description": "Negativbeton und Werkleitungen (Unterbetonplatte)",
+    "sequence": 2,
+    "depends_on": [
+      "KO.01.01.01"
+    ]
+  },
+  "KO.01.01.03": {
+    "description": "Medienkanäle",
+    "sequence": 3,
+    "depends_on": [
+      "KO.01.01.02"
+    ]
+  },
+  "KO.01.01.04": {
+    "description": "Betonieren Bewehrung",
+    "sequence": 4,
+    "depends_on": [
+      "KO.01.01.03"
+    ]
+  },
+  "KO.01.02": {
+    "description": "Fundament",
+    "sequence": 3,
+    "depends_on": [
+      "KO.01.01.04"
+    ]
+  },
+  "KO.01.02.01": {
+    "description": "Regelfundamente",
+    "sequence": 3,
+    "depends_on": [
+      "KO.01.01.04"
+    ]
+  },
+  "KO.01.02.02": {
+    "description": "Streifenfundamente",
+    "sequence": 3,
+    "depends_on": [
+      "KO.01.01.04"
+    ]
+  },
+  "KO.01.02.03": {
+    "description": "Zubehör für Standardfundamente",
+    "sequence": 4,
+    "depends_on": [
+      "KO.01.02.01",
+      "KO.01.02.02"
+    ]
+  },
+  "KO.01.02.04": {
+    "description": "Spezialfundamente",
+    "sequence": 3,
+    "depends_on": [
+      "KO.01.01.04"
+    ]
+  },
+  "KO.01.02.05": {
+    "description": "Rammpfähle",
+    "sequence": 1,
+    "depends_on": []
+  },
+  "KO.01.02.06": {
+    "description": "Bohrpfähle",
+    "sequence": 1,
+    "depends_on": []
+  },
+  "KO.01.02.07": {
+    "description": "Fundamentplatte",
+    "sequence": 4,
+    "depends_on": [
+      "KO.01.02.03"
+    ]
+  },
+  "KO.01.02.08": {
+    "description": "Einzelfundament",
+    "sequence": 3,
+    "depends_on": [
+      "KO.01.01.04"
+    ]
+  },
+  "KO.01.02.09": {
+    "description": "Pfähle",
+    "sequence": 1,
+    "depends_on": []
+  },
+  "KO.01.03": {
+    "description": "Bodenplatte",
+    "sequence": 5,
+    "depends_on": [
+      "KO.01.02.07"
+    ]
+  },
+  "KO.01.04": {
+    "description": "Erdverbundene Treppe, Rampe",
+    "sequence": 6,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.01.04.01": {
+    "description": "Massivbau",
+    "sequence": 6,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.01.04.02": {
+    "description": "Zusammengebaut",
+    "sequence": 6,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.01.05": {
+    "description": "Erdverbundenes Podest",
+    "sequence": 6,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.01.05.01": {
+    "description": "Massivbau",
+    "sequence": 6,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.01.05.02": {
+    "description": "Zusammengebaut",
+    "sequence": 6,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.01.06": {
+    "description": "Erdverbundener Aufzugschacht",
+    "sequence": 7,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.01.06.01": {
+    "description": "Stahlbeton",
+    "sequence": 7,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.01.06.02": {
+    "description": "Mauerwerk",
+    "sequence": 7,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.01.06.03": {
+    "description": "Stahlkonstruktion",
+    "sequence": 7,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.02": {
+    "description": "Wandkonstruktion",
+    "sequence": 12,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.02.01": {
+    "description": "Aussenwandkonstruktion",
+    "sequence": 12,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "K0.02.01.01": {
+    "description": "Aussenwand, Massivbau, Beton",
+    "sequence": 12,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "K0.02.01.02": {
+    "description": "Aussenwand, Mauerwerk, Ziegel",
+    "sequence": 12,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "K0.02.01.03": {
+    "description": "Aussenwand, Fertigteilkonstruktion, Holz-Hybrid",
+    "sequence": 12,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "K0.02.01.04": {
+    "description": "Aussenwand, Stahlkonstruktion, Skelettbau",
+    "sequence": 12,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.02.02": {
+    "description": "Innenwandkonstruktion",
+    "sequence": 15,
+    "depends_on": [
+      "KO.02.01"
+    ]
+  },
+  "K0.02.02.01": {
+    "description": "Innenwand, Massivbau, Beton",
+    "sequence": 15,
+    "depends_on": [
+      "KO.02.01"
+    ]
+  },
+  "K0.02.02.02": {
+    "description": "Innenwand, Mauerwerk, Ziegel",
+    "sequence": 15,
+    "depends_on": [
+      "KO.02.01"
+    ]
+  },
+  "K0.02.02.03": {
+    "description": "Innenwand, Stahlkonstruktion",
+    "sequence": 15,
+    "depends_on": [
+      "KO.02.01"
+    ]
+  },
+  "K0.02.02.04": {
+    "description": "Innenwand, Gipskarton, Trockenbauwand",
+    "sequence": 16,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "KO.02.02.05": {
+    "description": "Spezielle Innenwand",
+    "sequence": 16,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.02.02.05.01": {
+    "description": "Leichtbauwand aus Holz",
+    "sequence": 16,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.02.02.05.02": {
+    "description": "Glasbauwand",
+    "sequence": 16,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.02.02.05.03": {
+    "description": "Brandschutzwand",
+    "sequence": 16,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.03": {
+    "description": "Stützenkonstruktion",
+    "sequence": 8,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.03.01": {
+    "description": "Aussenstütze",
+    "sequence": 8,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.03.01.01": {
+    "description": "Stützen Rohbau",
+    "sequence": 8,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.03.01.02": {
+    "description": "Stützen Holzbau",
+    "sequence": 8,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.03.01.03": {
+    "description": "Stützen Stahlbau",
+    "sequence": 8,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.03.02": {
+    "description": "Innenstütze",
+    "sequence": 9,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.03.02.01": {
+    "description": "Stützen Rohbau",
+    "sequence": 9,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.03.02.02": {
+    "description": "Stützen Holzbau",
+    "sequence": 9,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.03.02.03": {
+    "description": "Stützen Metallbau",
+    "sequence": 9,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04": {
+    "description": "Deckenkonstruktion, Dachkonstruktion",
+    "sequence": 11,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.01": {
+    "description": "Geschossdecke",
+    "sequence": 11,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.01.01": {
+    "description": "Massiv",
+    "sequence": 11,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.01.02": {
+    "description": "Träger",
+    "sequence": 11,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.02": {
+    "description": "Innen liegende Treppe, Rampe",
+    "sequence": 13,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.02.01": {
+    "description": "Massivbau",
+    "sequence": 13,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.02.02": {
+    "description": "Zusammengebaut",
+    "sequence": 13,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.03": {
+    "description": "Innen liegendes Podest",
+    "sequence": 13,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.03.01": {
+    "description": "Massivbau",
+    "sequence": 13,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.03.02": {
+    "description": "Zusammengebaut",
+    "sequence": 13,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.04": {
+    "description": "Dachkonstruktion",
+    "sequence": 20,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.04.01": {
+    "description": "Konstruktion Flachdach",
+    "sequence": 20,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.04.01.01": {
+    "description": "Massiv",
+    "sequence": 20,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.04.01.02": {
+    "description": "Träger",
+    "sequence": 20,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.04.02": {
+    "description": "Konstruktion geneigtes Dach",
+    "sequence": 20,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.04.02.01": {
+    "description": "Dachkonstruktion, geneigtes Dach, Holz, Stahl, Eisen",
+    "sequence": 20,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.02": {
+    "description": "Dachkonstruktion, geneigtes Dach, Dachträger, Holz, Stahl, Eisen",
+    "sequence": 20,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.03": {
+    "description": "Außen-Dachpaneele",
+    "sequence": 22,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.04": {
+    "description": "Außen-Dachpaneele aus Metall",
+    "sequence": 22,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.05": {
+    "description": "Außen-Dachpaneele aus Kunststoff",
+    "sequence": 22,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.06": {
+    "description": "Außen-Dachpaneele aus Holz",
+    "sequence": 22,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.07": {
+    "description": "Außen-Dachpaneele aus Verbundwerkstoff",
+    "sequence": 22,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.08": {
+    "description": "Beschichtete Außen-Dachpaneele",
+    "sequence": 22,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.09": {
+    "description": "Außen-Dachpaneele mit Gesteinsbeschichtung",
+    "sequence": 22,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.10": {
+    "description": "Porzellanemaillierte Außen-Dachpaneele",
+    "sequence": 22,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.44.02.11": {
+    "description": "Außen-Dachpaneele mit Fliesenbeschichtung",
+    "sequence": 22,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.06": {
+    "description": "Aussen liegende Treppe, Rampe",
+    "sequence": 14,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.06.01": {
+    "description": "Massivbau",
+    "sequence": 14,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.06.02": {
+    "description": "Zusammengebaut",
+    "sequence": 14,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.07": {
+    "description": "Aussen liegendes Podest",
+    "sequence": 14,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.07.01": {
+    "description": "Massivbau",
+    "sequence": 14,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.07.02": {
+    "description": "Zusammengebaut",
+    "sequence": 14,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.04.08": {
+    "description": "Aussen liegende Konstruktion, Vordach",
+    "sequence": 21,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.05": {
+    "description": "Ergänzende Leistung zu Konstruktion",
+    "sequence": 17,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.05.01": {
+    "description": "Durchbruch, Schlitz zu Konstruktion",
+    "sequence": 17,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.05.02": {
+    "description": "Maschinensockel, Einlage",
+    "sequence": 17,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.05.03": {
+    "description": "Maschinensockel, Einlage",
+    "sequence": 17,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.05.04": {
+    "description": "Other",
+    "sequence": 17,
+    "depends_on": [
+      "KO.01.03"
+    ]
+  },
+  "KO.06": {
+    "description": "Fassadenkonstruktion",
+    "sequence": 18,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.01": {
+    "description": "Vorhangfassade / Pfosten-Riegel-System",
+    "sequence": 18,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.02": {
+    "description": "Fassadenbekleidung (Metall-/Holz-/Keramik-/Faserzementtafeln)",
+    "sequence": 19,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.03": {
+    "description": "WDVS-System (Putz- und Wärmedämmverbundsystem)",
+    "sequence": 19,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.04": {
+    "description": "Dämmung / Isolationsschichten",
+    "sequence": 18,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.05": {
+    "description": "Abdichtung (Fugenbänder, Dichtbahnen)",
+    "sequence": 18,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.06": {
+    "description": "Sonnenschutz (Raffstores, Lamellen, Jalousien)",
+    "sequence": 45,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.07": {
+    "description": "Fassadenlüftungsklappen",
+    "sequence": 42,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.08": {
+    "description": "Fensteranschlüsse und Leibungen",
+    "sequence": 23,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.09": {
+    "description": "Türanschlüsse und Schwellen",
+    "sequence": 23,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.06.10": {
+    "description": "Diverse Fassadenbauteile",
+    "sequence": 24,
+    "depends_on": [
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "KO.07": {
+    "description": "Diverse Konstruktionsbauteile",
+    "sequence": 25,
+    "depends_on": []
+  },
+  "MACH": {
+    "description": "Maschinenbau/Sockel",
+    "sequence": 26,
+    "depends_on": []
+  },
+  "MACH.01": {
+    "description": "Maschinensockel",
+    "sequence": 26,
+    "depends_on": []
+  },
+  "MACH.02": {
+    "description": "Maschineneinlage",
+    "sequence": 26,
+    "depends_on": []
+  },
+  "MACH.03": {
+    "description": "Durchbruch für Maschinen",
+    "sequence": 26,
+    "depends_on": []
+  },
+  "EL": {
+    "description": "Elektrotechnik",
+    "sequence": 27,
+    "depends_on": []
+  },
+  "EL.01": {
+    "description": "Leerrohr/Kabelschutzrohr",
+    "sequence": 27,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "EL.02": {
+    "description": "Leerrohrzubehör (Bögen, T-Stücke)",
+    "sequence": 28,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "EL.03": {
+    "description": "Elektrokabel / Draht",
+    "sequence": 38,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "EL.04": {
+    "description": "Kabeltrasse",
+    "sequence": 29,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "EL.05": {
+    "description": "Kabeltrassenzubehör: Bögen",
+    "sequence": 30,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "EL.06": {
+    "description": "Kabeltrassenzubehör: T-Stücke",
+    "sequence": 30,
+    "depends_on": []
+  },
+  "EL.07": {
+    "description": "Beleuchtungskörper (Leuchte)",
+    "sequence": 44,
+    "depends_on": [
+      "KO.06.01"
+    ]
+  },
+  "EL.08": {
+    "description": "Schalter",
+    "sequence": 44,
+    "depends_on": []
+  },
+  "EL.09": {
+    "description": "Steckdose (Rezeptacle/Outlet)",
+    "sequence": 44,
+    "depends_on": []
+  },
+  "EL.10": {
+    "description": "Verteilerkasten (Schaltschranksystem)",
+    "sequence": 31,
+    "depends_on": []
+  },
+  "HZ": {
+    "description": "Heizung",
+    "sequence": 32,
+    "depends_on": []
+  },
+  "HZ.01": {
+    "description": "Kessel (Heizunggerät)",
+    "sequence": 32,
+    "depends_on": [
+      "KO.02.02",
+      "HZ.04"
+    ]
+  },
+  "HZ.02": {
+    "description": "Wärmetauscher",
+    "sequence": 32,
+    "depends_on": [
+      "KO.02.02",
+      "HZ.04"
+    ]
+  },
+  "HZ.03": {
+    "description": "Umwälzpumpe (Heizungspumpe)",
+    "sequence": 32,
+    "depends_on": [
+      "KO.02.02",
+      "HZ.04"
+    ]
+  },
+  "HZ.04": {
+    "description": "Heizungsrohre (Vorlauf & Rücklauf)",
+    "sequence": 32,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "HZ.05": {
+    "description": "Rohrarmaturen (Heizungsinstallation)",
+    "sequence": 32,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "HZ.06": {
+    "description": "Heizfittings: Bögen",
+    "sequence": 32,
+    "depends_on": []
+  },
+  "HZ.07": {
+    "description": "Heizfittings: T-Stück",
+    "sequence": 32,
+    "depends_on": []
+  },
+  "HZ.08": {
+    "description": "Ventile (Heizsventile)",
+    "sequence": 32,
+    "depends_on": []
+  },
+  "HZ.09": {
+    "description": "Ausdehnungsgefäß (Heizung)",
+    "sequence": 32,
+    "depends_on": [
+      "HZ.04"
+    ]
+  },
+  "HZ.10": {
+    "description": "Heizkörper / Konvektoren",
+    "sequence": 43,
+    "depends_on": [
+      "HZ.04",
+      "KO.06.01"
+    ]
+  },
+  "HZ.11": {
+    "description": "FanCoil-Gerät",
+    "sequence": 43,
+    "depends_on": [
+      "HZ.04"
+    ]
+  },
+  "KT": {
+    "description": "Kälte",
+    "sequence": 33,
+    "depends_on": []
+  },
+  "KT.01": {
+    "description": "Kühler (Wasserkühler/Chiller)",
+    "sequence": 33,
+    "depends_on": [
+      "KO.02.02",
+      "KT.04"
+    ]
+  },
+  "KT.02": {
+    "description": "Kühlturm",
+    "sequence": 33,
+    "depends_on": [
+      "KO.02.02",
+      "KT.04"
+    ]
+  },
+  "KT.03": {
+    "description": "Kaltwasserpumpe",
+    "sequence": 33,
+    "depends_on": [
+      "KO.02.02",
+      "KT.04"
+    ]
+  },
+  "KT.04": {
+    "description": "Kaltwasserrohre",
+    "sequence": 33,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "KT.05": {
+    "description": "Rohrarmaturen (Kaltwassersystem)",
+    "sequence": 33,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "KT.06": {
+    "description": "Kältefittings: Bögen",
+    "sequence": 33,
+    "depends_on": []
+  },
+  "KT.07": {
+    "description": "Kältefittings: T-Stück",
+    "sequence": 33,
+    "depends_on": []
+  },
+  "KT.08": {
+    "description": "Ventile (Kaltwassersystem)",
+    "sequence": 33,
+    "depends_on": [
+      "KT.04"
+    ]
+  },
+  "KT.09": {
+    "description": "Ausdehnungsgefäß (Kaltwassersystem)",
+    "sequence": 33,
+    "depends_on": [
+      "KT.04"
+    ]
+  },
+  "KT.10": {
+    "description": "FanCoil-Gerät (Kühlung)",
+    "sequence": 43,
+    "depends_on": [
+      "KT.04"
+    ]
+  },
+  "LF": {
+    "description": "Lüftung",
+    "sequence": 34,
+    "depends_on": []
+  },
+  "LF.01": {
+    "description": "Lüftungsgerät / AHU (Air Handling Unit)",
+    "sequence": 34,
+    "depends_on": [
+      "KO.02.02",
+      "LF.03"
+    ]
+  },
+  "LF.02": {
+    "description": "Ventilator (Lüftungsventilator)",
+    "sequence": 34,
+    "depends_on": [
+      "KO.02.02",
+      "LF.03"
+    ]
+  },
+  "LF.03": {
+    "description": "Luftkanal (gerades Segment)",
+    "sequence": 34,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "LF.04": {
+    "description": "Luftfittings: Bögen",
+    "sequence": 34,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "LF.05": {
+    "description": "Luftfittings: T-Stücke",
+    "sequence": 34,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "LF.06": {
+    "description": "Drosselklappen (Luftstromdrossler)",
+    "sequence": 34,
+    "depends_on": [
+      "LF.03"
+    ]
+  },
+  "LF.07": {
+    "description": "Luftschalldämpfer (Akustikabsorber)",
+    "sequence": 34,
+    "depends_on": [
+      "LF.03"
+    ]
+  },
+  "LF.08": {
+    "description": "Luftfilter",
+    "sequence": 34,
+    "depends_on": [
+      "LF.03"
+    ]
+  },
+  "LF.09": {
+    "description": "Luftauslass (Diffusor/Grill)",
+    "sequence": 42,
+    "depends_on": [
+      "LF.03",
+      "KO.06.01"
+    ]
+  },
+  "LF.10": {
+    "description": "VAV-Endgerät (Variable Air Volume Box)",
+    "sequence": 34,
+    "depends_on": [
+      "LF.03"
+    ]
+  },
+  "LF.11": {
+    "description": "Wärmerückgewinnungsgerät",
+    "sequence": 34,
+    "depends_on": [
+      "LF.03"
+    ]
+  },
+  "LF.12": {
+    "description": "Befeuchter",
+    "sequence": 34,
+    "depends_on": [
+      "LF.03"
+    ]
+  },
+  "LF.13": {
+    "description": "Lüftungdämmung",
+    "sequence": 34,
+    "depends_on": [
+      "LF.03"
+    ]
+  },
+  "SPR": {
+    "description": "Sprinkler (Brandschutz)",
+    "sequence": 35,
+    "depends_on": []
+  },
+  "SPR.01": {
+    "description": "Sprinklerkopf",
+    "sequence": 42,
+    "depends_on": [
+      "KO.02.02",
+      "KO.06.01"
+    ]
+  },
+  "SPR.02": {
+    "description": "Sprinklerrohr",
+    "sequence": 35,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPR.03": {
+    "description": "Sprinklerzubehör: Bögen",
+    "sequence": 35,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPR.04": {
+    "description": "Sprinklerzubehör: T-Stücke",
+    "sequence": 35,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPR.05": {
+    "description": "Alarm-/Steuerarmatur",
+    "sequence": 35,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPR.06": {
+    "description": "Brandschutzpumpe",
+    "sequence": 35,
+    "depends_on": []
+  },
+  "SPR.07": {
+    "description": "Jockey-Pumpe",
+    "sequence": 35,
+    "depends_on": []
+  },
+  "SPR.08": {
+    "description": "Feuerwehranschluss",
+    "sequence": 35,
+    "depends_on": []
+  },
+  "SPR.09": {
+    "description": "Rückflussverhinderer",
+    "sequence": 35,
+    "depends_on": []
+  },
+  "SN": {
+    "description": "Sanitär",
+    "sequence": 36,
+    "depends_on": []
+  },
+  "SN.01": {
+    "description": "Wasserrohr (gerades Segment)",
+    "sequence": 36,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SN.02": {
+    "description": "Rohrarmaturen (Reduzierungen, Kupplungen)",
+    "sequence": 36,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SN.03": {
+    "description": "Rohrarmaturen: Bögen",
+    "sequence": 36,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SN.04": {
+    "description": "Rohrarmaturen: T-Stücke",
+    "sequence": 36,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SN.05": {
+    "description": "Ventile (Absperr-, Rückfluss-, Druckminderventile etc.)",
+    "sequence": 36,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SN.06": {
+    "description": "Boosterpumpe (Druckerhöhungspumpe)",
+    "sequence": 36,
+    "depends_on": []
+  },
+  "SN.07": {
+    "description": "Wassertank (Speicher-/Ausdehnungsbehälter)",
+    "sequence": 36,
+    "depends_on": []
+  },
+  "SN.08": {
+    "description": "Warmwassererzeuger (Kessel/Calorifier)",
+    "sequence": 36,
+    "depends_on": []
+  },
+  "SN.09": {
+    "description": "Waschtisch (Waschbecken)",
+    "sequence": 43,
+    "depends_on": [
+      "KO.06.01"
+    ]
+  },
+  "SN.10": {
+    "description": "Toilette (WC/Water Closet)",
+    "sequence": 43,
+    "depends_on": [
+      "KO.06.01"
+    ]
+  },
+  "SN.11": {
+    "description": "Urinal",
+    "sequence": 43,
+    "depends_on": [
+      "KO.06.01"
+    ]
+  },
+  "SN.12": {
+    "description": "Bodenablauf (Ablauföffnung)",
+    "sequence": 42,
+    "depends_on": []
+  },
+  "WATER": {
+    "description": "Wasserbehandlung",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WATER.01": {
+    "description": "Enthärtungsanlage",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WATER.02": {
+    "description": "Osmoseanlage",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WATER.03": {
+    "description": "Frischwasserstation",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WATER.04": {
+    "description": "Trinkwasserstation",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WATER.05": {
+    "description": "Druckerhöhungsanlage",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WASTE": {
+    "description": "Abwasserbehandlung",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WASTE.01": {
+    "description": "Fäkalienhebeanlage",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WASTE.02": {
+    "description": "Abwasserbehandlungsanlage",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WASTE.03": {
+    "description": "Mechanische Reinigung",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WASTE.04": {
+    "description": "Biologische Reinigung",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WASTE.05": {
+    "description": "Chemische Reinigung",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "WASTE.06": {
+    "description": "Abwasserspeicher",
+    "sequence": 37,
+    "depends_on": [
+      "SN.01"
+    ]
+  },
+  "GAS": {
+    "description": "Gastechnik",
+    "sequence": 38,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "GAS.01": {
+    "description": "Gasrohr (Hauptleitung)",
+    "sequence": 38,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "GAS.02": {
+    "description": "Gasverteilerleitung",
+    "sequence": 38,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "GAS.03": {
+    "description": "Gasarmatur (Ventil)",
+    "sequence": 38,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "GAS.04": {
+    "description": "Gasmessgerät (Zähler)",
+    "sequence": 38,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "GAS.05": {
+    "description": "Gaspumpe/Verdichter",
+    "sequence": 38,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPEC": {
+    "description": "Spezialmedien",
+    "sequence": 39,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPEC.01": {
+    "description": "Druckluftleitung",
+    "sequence": 39,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPEC.02": {
+    "description": "Vakuumleitung",
+    "sequence": 39,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPEC.03": {
+    "description": "Medgasentnahmestelle",
+    "sequence": 39,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPEC.04": {
+    "description": "Bereichskontrolleinheit",
+    "sequence": 39,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPEC.05": {
+    "description": "Druckluftkompressor",
+    "sequence": 39,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPEC.06": {
+    "description": "Vakuumpumpe",
+    "sequence": 39,
+    "depends_on": [
+      "KO.02.02"
+    ]
+  },
+  "SPEC.07": {
+    "description": "Dämmung",
+    "sequence": 39,
+    "depends_on": [
+      "KO.02.02",
+      "EL.04",
+      "HZ.04",
+      "LF.03"
+    ]
+  },
+  "HEAT": {
+    "description": "Erweiterte Heiztechnik",
+    "sequence": 40,
+    "depends_on": [
+      "HZ.02"
+    ]
+  },
+  "HEAT.01": {
+    "description": "Brennstofflager",
+    "sequence": 40,
+    "depends_on": [
+      "HZ.02"
+    ]
+  },
+  "HEAT.02": {
+    "description": "Wärmespeicher",
+    "sequence": 40,
+    "depends_on": [
+      "HZ.02"
+    ]
+  },
+  "HEAT.03": {
+    "description": "Wärmezähler",
+    "sequence": 40,
+    "depends_on": [
+      "HZ.02"
+    ]
+  },
+  "HEAT.04": {
+    "description": "Bodenheizungsverteiler",
+    "sequence": 40,
+    "depends_on": [
+      "HZ.02"
+    ]
+  },
+  "HEAT.05": {
+    "description": "Umluftkühlgerät",
+    "sequence": 40,
+    "depends_on": [
+      "HZ.02"
+    ]
+  },
+  "HEAT.06": {
+    "description": "Thermostat/Bedienelemente",
+    "sequence": 44,
+    "depends_on": [
+      "HZ.02"
+    ]
+  },
+  "COOL": {
+    "description": "Erweiterte Kältetechnik",
+    "sequence": 41,
+    "depends_on": [
+      "KT.01"
+    ]
+  },
+  "COOL.01": {
+    "description": "Kältespeicher",
+    "sequence": 41,
+    "depends_on": [
+      "KT.01"
+    ]
+  },
+  "COOL.02": {
+    "description": "Kältekühldecke",
+    "sequence": 41,
+    "depends_on": [
+      "KT.01"
+    ]
+  },
+  "COOL.03": {
+    "description": "Umluftkühlgerät (Kälte)",
+    "sequence": 41,
+    "depends_on": [
+      "KT.01"
+    ]
+  },
+  "AUTO": {
+    "description": "Gebäudeautomation",
+    "sequence": 42,
+    "depends_on": [
+      "EL.04",
+      "HZ.04"
+    ]
+  },
+  "AUTO.01": {
+    "description": "Managementstation (Gebäudeleittechnik)",
+    "sequence": 42,
+    "depends_on": [
+      "EL.04",
+      "HZ.04"
+    ]
+  },
+  "AUTO.02": {
+    "description": "Automationsstation (DDC-Regler)",
+    "sequence": 42,
+    "depends_on": [
+      "EL.04",
+      "HZ.04"
+    ]
+  },
+  "AUTO.03": {
+    "description": "Raumregler (Raumautomation)",
+    "sequence": 42,
+    "depends_on": [
+      "EL.04",
+      "HZ.04"
+    ]
+  },
+  "AUTO.04": {
+    "description": "Feldbusgerät (Sensoren/Aktoren)",
+    "sequence": 42,
+    "depends_on": [
+      "EL.04",
+      "HZ.04"
+    ]
+  },
+  "AUTO.05": {
+    "description": "Schaltgerätekombination (MSR-Schrank)",
+    "sequence": 42,
+    "depends_on": [
+      "EL.04",
+      "HZ.04"
+    ]
+  },
+  "AUTO.06": {
+    "description": "Netzwerkkomponenten (BUS-System)",
+    "sequence": 42,
+    "depends_on": [
+      "EL.04",
+      "HZ.04"
+    ]
+  },
+  "AUTO.07": {
+    "description": "Bedienterminal (HMI-Panel)",
+    "sequence": 42,
+    "depends_on": [
+      "EL.04",
+      "HZ.04"
+    ]
+  },
+  "TRANS": {
+    "description": "Transportanlagen",
+    "sequence": 43,
+    "depends_on": [
+      "KO.04.02"
+    ]
+  },
+  "TRANS.01": {
+    "description": "Aufzugkabine",
+    "sequence": 43,
+    "depends_on": [
+      "KO.04.02"
+    ]
+  },
+  "TRANS.02": {
+    "description": "Aufzugschacht",
+    "sequence": 43,
+    "depends_on": [
+      "KO.04.02"
+    ]
+  },
+  "TRANS.03": {
+    "description": "Aufzugtür",
+    "sequence": 43,
+    "depends_on": [
+      "KO.04.02"
+    ]
+  },
+  "TRANS.04": {
+    "description": "Aufzugmaschine",
+    "sequence": 43,
+    "depends_on": [
+      "KO.04.02"
+    ]
+  },
+  "TRANS.05": {
+    "description": "Fahrtreppe",
+    "sequence": 43,
+    "depends_on": [
+      "KO.04.02"
+    ]
+  },
+  "TRANS.06": {
+    "description": "Fahrsteig",
+    "sequence": 43,
+    "depends_on": [
+      "KO.04.02"
+    ]
+  },
+  "TRANS.07": {
+    "description": "Hebeeinrichtung",
+    "sequence": 43,
+    "depends_on": [
+      "KO.04.02"
+    ]
+  },
+  "SEC": {
+    "description": "Sicherheitsanlagen",
+    "sequence": 44,
+    "depends_on": [
+      "EL.07"
+    ]
+  },
+  "SEC.01": {
+    "description": "Einbruchmelder (PIR-Sensor)",
+    "sequence": 44,
+    "depends_on": [
+      "EL.07"
+    ]
+  },
+  "SEC.02": {
+    "description": "Zutrittskontrolle (Kartenleser)",
+    "sequence": 44,
+    "depends_on": [
+      "EL.07"
+    ]
+  },
+  "SEC.03": {
+    "description": "Überwachungskamera (CCTV)",
+    "sequence": 44,
+    "depends_on": [
+      "EL.07"
+    ]
+  },
+  "SEC.04": {
+    "description": "Schließzylinder (elektronisches Schloss)",
+    "sequence": 44,
+    "depends_on": [
+      "EL.07"
+    ]
+  },
+  "SEC.05": {
+    "description": "Sicherheitszentrale (Alarmzentrale)",
+    "sequence": 44,
+    "depends_on": [
+      "EL.07"
+    ]
+  },
+  "SEC.06": {
+    "description": "Gaswarnmelder",
+    "sequence": 44,
+    "depends_on": [
+      "EL.07"
+    ]
+  },
+  "SEC.07": {
+    "description": "Sirene/Signalgeber",
+    "sequence": 44,
+    "depends_on": [
+      "EL.07"
+    ]
+  },
+  "EQUIP": {
+    "description": "Elektrogeräte/Ausrüstung",
+    "sequence": 45,
+    "depends_on": [
+      "EL.07",
+      "SN.09"
+    ]
+  },
+  "EQUIP.01": {
+    "description": "Elektroheizung",
+    "sequence": 45,
+    "depends_on": [
+      "EL.07",
+      "SN.09"
+    ]
+  },
+  "EQUIP.02": {
+    "description": "Haushaltsgerät (Küche)",
+    "sequence": 45,
+    "depends_on": [
+      "EL.07",
+      "SN.09"
+    ]
+  },
+  "EQUIP.03": {
+    "description": "Industriemaschine",
+    "sequence": 45,
+    "depends_on": [
+      "EL.07",
+      "SN.09"
+    ]
+  },
+  "EQUIP.04": {
+    "description": "Ladestation (E-Mobilität)",
+    "sequence": 45,
+    "depends_on": [
+      "EL.07",
+      "SN.09"
+    ]
+  },
+  "EQUIP.05": {
+    "description": "Telefonanlage",
+    "sequence": 45,
+    "depends_on": [
+      "EL.07",
+      "SN.09"
+    ]
+  },
+  "EQUIP.06": {
+    "description": "Netzwerkgerät (IT-Equipment)",
+    "sequence": 45,
+    "depends_on": [
+      "EL.07",
+      "SN.09"
+    ]
+  },
+  "EQUIP.07": {
+    "description": "Audio/Video-Gerät",
+    "sequence": 45,
+    "depends_on": [
+      "EL.07",
+      "SN.09"
+    ]
+  },
+  "OTH": {
+    "description": "Other",
+    "sequence": 50,
+    "depends_on": []
+  }
+}

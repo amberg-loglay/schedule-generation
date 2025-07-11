@@ -70,6 +70,8 @@ export interface Task {
   phase?: string;
   dependencies?: string[];
   object_code?: string;
+  object_count?: number;
+  sequence?: number;
   level?: number;
   parent_id?: string;
 }

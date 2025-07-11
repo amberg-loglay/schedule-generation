@@ -135,7 +135,7 @@ const DHtmlxGanttChart: React.FC<DHtmlxGanttChartProps> = ({ tasks }) => {
       data: tasks.map((task, index) => ({
         id: task.id || `task-${index}`,
         text: task.name || `Task ${index + 1}`,
-        start_date: parseGermanDate(task.start_date),
+        start_date: task.start_date || new Date().toISOString().split('T')[0],
         duration: task.duration || 7,
         progress: 0,
         phase: task.phase || 'Construction',
@@ -146,23 +146,7 @@ const DHtmlxGanttChart: React.FC<DHtmlxGanttChartProps> = ({ tasks }) => {
     return data;
   };
 
-  const parseGermanDate = (dateStr: string): string => {
-    if (!dateStr || dateStr === 'null' || dateStr === 'undefined') {
-      return new Date().toISOString().split('T')[0];
-    }
-    
-    try {
-      const parts = dateStr.split(' ');
-      const datePart = parts[parts.length - 1];
-      const [day, month, year] = datePart.split('.');
-      const fullYear = `20${year}`;
-      const date = new Date(parseInt(fullYear), parseInt(month) - 1, parseInt(day));
-      return date.toISOString().split('T')[0];
-    } catch (error) {
-      console.warn('Failed to parse date:', dateStr, error);
-      return new Date().toISOString().split('T')[0];
-    }
-  };
+
 
   if (!tasks || tasks.length === 0) {
     return (
