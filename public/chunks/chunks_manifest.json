@@ -1,11 +1,19 @@
 {
-  "total_chunks": 5,
+  "total_chunks": 13,
   "chunk_files": [
     "bim_objects_chunk_001.json",
     "bim_objects_chunk_002.json",
     "bim_objects_chunk_003.json",
     "bim_objects_chunk_004.json",
-    "bim_objects_chunk_005.json"
+    "bim_objects_chunk_005.json",
+    "bim_objects_chunk_006.json",
+    "bim_objects_chunk_007.json",
+    "bim_objects_chunk_008.json",
+    "bim_objects_chunk_009.json",
+    "bim_objects_chunk_010.json",
+    "bim_objects_chunk_011.json",
+    "bim_objects_chunk_012.json",
+    "bim_objects_chunk_013.json"
   ],
   "total_objects": 89637
 }
